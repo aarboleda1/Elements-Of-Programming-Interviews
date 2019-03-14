@@ -3,11 +3,17 @@ import functools
 from test_framework import generic_test
 from test_framework.test_utils import enable_executor_hook
 
-
+# 6.6
 # Returns the number of valid entries after deletion.
 def delete_duplicates(A):
-    # TODO - you fill in here.
-    return 0
+    if not A:
+        return 0
+    write_index = 0
+    for i in range(1, len(A)):
+        if A[write_index] != A[i]:
+            write_index += 1
+            A[write_index] = A[i]
+    return write_index + 1
 
 
 @enable_executor_hook
