@@ -70,8 +70,6 @@ def dutch_flag_partition_wrapper(executor, A, pivot_idx):
 
 
 if __name__ == '__main__':
-    A = [9, -1, 2, 0, 9, 2, 2, 2]
-    dutch_flag_partition(3, A)
     exit(
         generic_test.generic_test_main("dutch_national_flag.py",
                                        'dutch_national_flag.tsv',
