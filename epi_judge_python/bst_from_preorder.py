@@ -17,7 +17,6 @@ def rebuild_bst_from_preorder(preorder_sequence):
 
         root_idx[0] += 1
         root = BstNode(val)
-        print(lo, hi)
         root.left = rebuild_bst_from_preorder_on_value_range(lo, val)
         root.right = rebuild_bst_from_preorder_on_value_range(val, hi)
         return root
