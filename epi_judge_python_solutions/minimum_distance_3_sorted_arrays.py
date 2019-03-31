@@ -4,7 +4,6 @@ from test_framework import generic_test
 
 
 def find_closest_elements_in_sorted_arrays(sorted_arrays):
-
     min_distance_so_far = float('inf')
     # Stores array iterators in each entry.
     iters = bintrees.RBTree()
