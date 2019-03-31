@@ -5,7 +5,7 @@ from test_framework import generic_test
 
 PairedTasks = collections.namedtuple("PairedTasks", ("task_1", "task_2"))
 
-
+# TimeComplexity: O(n log n) which comes from the sorted
 def optimum_task_assignment(task_durations):
     task_durations.sort()
     lo, hi = 0, len(task_durations) - 1

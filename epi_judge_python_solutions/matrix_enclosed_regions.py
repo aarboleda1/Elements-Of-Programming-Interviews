@@ -25,12 +25,6 @@ def fill_surrounded_regions_wrapper(board):
 
 
 if __name__ == '__main__':
-    matrix_enclosed_regions([
-        ["B", "B", "B", "B"],
-        ["W", "B", "W", "B"],
-        ["B", "W", "W", "B"],
-        ["B", "B", "B", "B"],
-    ])
     exit(
         generic_test.generic_test_main("matrix_enclosed_regions.py",
                                        'matrix_enclosed_regions.tsv',

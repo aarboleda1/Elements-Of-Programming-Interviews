@@ -1,3 +1,15 @@
+# Grading System
+- This is my own grading system for myself how I assess my capability
+to solve a problem
+
+**EASY** = 0, I solved it without any help using optimum time complexity and space complexity. I am able to justify every step and different approaches
+
+**MEDIUM** = 1, Solved but needed some clarification and took a long time to understand the problem.
+
+**HARD** = 2, Needed help to solve and didn't solve on my own. Had to look up answer
+
+**DIDNT_GET_QUESTION** = 3, Didn't understand the problem. Some of these problems are difficult to understand, so sometimes I end up looking at the answer and realize what they weren't asking. Hoping this wouldn't happen in a real interview because the interviewer would be able to ask these questions
+
 # TODO
 - [ ] 4.3, 4.11
 - [ ] 5.5, 5,9
@@ -13,11 +25,12 @@
 - [ ] 15.4, 15.9
 - [ ] 16.5, 16.7
 Greedy Algorithms and Invariants      
-- [ ] 17.1 Compute optimum Assignment of Tasks
-- [ ] 17.2 Schedule Optimum minimize waiting time
-- [ ] 17.3 The interval covering problem
+- [ EASY ] 17.1 Compute Optimum Assignment of Tasks
+- [ DIDNT_GET_QUESTION ] 17.2 Schedule Optimum minimize waiting time
+- [ MEDIUM ] 17.3 The interval covering problem
 - [ ] 17.4 The 3-sum problem
 - [ ] 17.7 Compute maximum water trapped by a pair of vertical lines
+
 - [ ] 18.3
 - [ ] 19.9
 - [ ] 20.1
