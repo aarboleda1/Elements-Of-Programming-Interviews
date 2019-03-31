@@ -12,7 +12,12 @@
 - [ ] 14.5
 - [ ] 15.4, 15.9
 - [ ] 16.5, 16.7
-- [ ] 17.7
+Greedy Algorithms and Invariants      
+- [ ] 17.1 Compute optimum Assignment of Tasks
+- [ ] 17.2 Schedule Optimum minimize waiting time
+- [ ] 17.3 The interval covering problem
+- [ ] 17.4 The 3-sum problem
+- [ ] 17.7 Compute maximum water trapped by a pair of vertical lines
 - [ ] 18.3
 - [ ] 19.9
 - [ ] 20.1
