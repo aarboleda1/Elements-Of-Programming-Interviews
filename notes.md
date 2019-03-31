@@ -24,7 +24,7 @@ to solve a problem
 - [ ] 14.5
 - [ ] 15.4, 15.9
 - [ ] 16.5, 16.7
-Greedy Algorithms and Invariants      
+- **Greedy Algorithms and Invariants** 4/31    
 - [ EASY ] 17.1 Compute Optimum Assignment of Tasks
 - [ DIDNT_GET_QUESTION ] 17.2 Schedule Optimum minimize waiting time
 - [ MEDIUM ] 17.3 The interval covering problem
@@ -45,7 +45,7 @@ Tool Tips for Data Structures
 # Graphs
 - It's natural to use a graph when the problem involves spatially connected objects
 e.g. roads/segments between cities
-- More generally, consider using a graph when you need to analyze any binary
+- More generally, consider using a graph when you need to analyze anyw binary
 relationship between 2 objects, such as interlinked webpages, followers in a
 social graph, etc. In such cases, quite often the problem can be reduced to
 a well-known graph problem
@@ -61,3 +61,6 @@ spanning trees of graph algorithms that are appropriate for optimization problem
 - It's often easier to conceptualize a greedy algorithm recursively, and then implement it using iteration for higher performance
 - Even if the greedy approach does not yield an optimum solution, it can give insights into the optimum algorithm, or serve as a heuristic.
 - Sometimes the correct greedy algorithm is *not obvious*
+
+# Invariants
+- Key strategy to determining whether to use an invariant and when designing an algorithm is to work on small examples to hypothesize the invariant
