@@ -28,7 +28,7 @@ to solve a problem
 - [ EASY ] 17.1 Compute Optimum Assignment of Tasks
 - [ DIDNT_GET_QUESTION ] 17.2 Schedule Optimum minimize waiting time
 - [ MEDIUM ] 17.3 The interval covering problem
-- [ ] 17.4 The 3-sum problem
+- [ MEDIUM ] 17.4 The 3-sum problem
 - [ ] 17.7 Compute maximum water trapped by a pair of vertical lines
 
 - [ ] 18.3
