@@ -1,6 +1,11 @@
 from test_framework import generic_test
 
-
+"""
+If we look at a small subproblem of this question, we can see that the water
+trapped is L * W where L = length, and W = width. So, we can work inwards
+and keep two pointers, we take min(left, right) which will give us the height,
+so amount of water trapped will be H * W
+"""
 def get_max_trapped_water(heights):
 
     i, j, max_water = 0, len(heights) - 1, 0
