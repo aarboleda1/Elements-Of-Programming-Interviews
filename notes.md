@@ -21,7 +21,11 @@ to solve a problem
 - [ ] 11.5, 11.10
 - [ ] 12.4, 12,6
 - [ ] 13.8, 13.11
+- **BST Problems**
+- [ MEDIUM ] 14.4 Least Common Ancestor 5/1 - I got it, but probably wouldn't have
+been able to fully justify in an interview setting
 - [ ] 14.5
+
 - [ ] 15.4, 15.9
 - [ ] 16.5, 16.7
 - **Greedy Algorithms and Invariants** 4/31    
@@ -30,7 +34,7 @@ to solve a problem
 - [ MEDIUM ] 17.3 The interval covering problem
 - [ MEDIUM ] 17.4 The 3-sum problem
 - [ ] 17.7 Compute maximum water trapped by a pair of vertical lines
-
+- [ ] Trapping water 24.32
 - [ ] 18.3
 - [ ] 19.9
 - [ ] 20.1
@@ -64,3 +68,19 @@ spanning trees of graph algorithms that are appropriate for optimization problem
 
 # Invariants
 - Key strategy to determining whether to use an invariant and when designing an algorithm is to work on small examples to hypothesize the invariant
+
+# Binary Search Trees
+- Offer ability to efficiently search for a key, find min **AND** max elements,
+look for the successor or predecessor of a search key, and enumerate keys in a
+a range in sorted order, due to the BST properties
+
+- With a BST, you can iterate thru elements in **sorted order** in time O(n)
+regardless of whether it is balanced
+
+- Some problems need a combination of a **BST and Hash Table**. For example if
+you insert student objects into a BST and entries are ordered by GPA, and
+then the student's GPA needs to be updated, all we have is the student's name and
+new GPA, we cannot find the student by name without full traversal. However, with
+an additional hash table, we can directly go to the corresponding entry in the tree
+
+##
