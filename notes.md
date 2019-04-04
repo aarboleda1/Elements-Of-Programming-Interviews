@@ -43,8 +43,8 @@ oblem
 Completed - Review on a weekly basis
 14.8
 Needs Work
-- bst_from_preorder 3/24
-- bst_from_sorted_array 3/24
+- bst_from_preorder 3/24, 4/3
+- bst_from_sorted_array 3/24, 4/3
 
 Tool Tips for Data Structures
 
