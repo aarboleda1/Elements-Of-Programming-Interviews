@@ -24,14 +24,16 @@ to solve a problem
 - **BST Problems**
 - [ MEDIUM ] 14.4 Least Common Ancestor 5/1 - I got it, but probably wouldn't have
 been able to fully justify in an interview setting
-- [ ] 14.5
+- [ DIDNT_GET_QUESTION ] 14.5, BST from pre order. very similar to 24.21
+- [ DIDNT_GET_QUESTION ] 24.21, Sorted List to BST very similar to 14.5
 
 - [ ] 15.4, 15.9
 - [ ] 16.5, 16.7
 - **Greedy Algorithms and Invariants** 4/31    
 - [ EASY ] 17.1 Compute Optimum Assignment of Tasks
 - [ DIDNT_GET_QUESTION ] 17.2 Schedule Optimum minimize waiting time
-- [ MEDIUM ] 17.3 The interval covering problem
+- [ MEDIUM ] 17.3 The interval covering prls
+oblem
 - [ MEDIUM ] 17.4 The 3-sum problem
 - [ ] 17.7 Compute maximum water trapped by a pair of vertical lines
 - [ ] Trapping water 24.32
@@ -49,7 +51,7 @@ Tool Tips for Data Structures
 # Graphs
 - It's natural to use a graph when the problem involves spatially connected objects
 e.g. roads/segments between cities
-- More generally, consider using a graph when you need to analyze anyw binary
+- More generally, consider using a graph when you need to analyze any binary
 relationship between 2 objects, such as interlinked webpages, followers in a
 social graph, etc. In such cases, quite often the problem can be reduced to
 a well-known graph problem
@@ -69,7 +71,12 @@ spanning trees of graph algorithms that are appropriate for optimization problem
 # Invariants
 - Key strategy to determining whether to use an invariant and when designing an algorithm is to work on small examples to hypothesize the invariant
 
-# Binary Search Trees
+# Binary Trees
+- PreOrder: Node, left subtree, right subtree
+- InOrder: left subtree, Node, right subtree
+- PostOrder: left subtree, right subtree, Node
+
+# BST
 - Offer ability to efficiently search for a key, find min **AND** max elements,
 look for the successor or predecessor of a search key, and enumerate keys in a
 a range in sorted order, due to the BST properties

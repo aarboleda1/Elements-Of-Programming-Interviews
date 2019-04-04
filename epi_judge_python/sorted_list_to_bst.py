@@ -10,8 +10,22 @@ from test_framework.test_utils import enable_executor_hook
 # list nodes are used as the BST nodes left and right fields, respectively.
 # The length of the list is given.
 def build_bst_from_sorted_doubly_list(l, n):
-    # TODO - you fill in here.
-    return None
+    def build_bst_recur(start, end):
+        if start >= end:
+            return None
+        mid = (start + end) // 2
+        left = build_bst_recur(start, mid)
+        # get the current element
+        cur = head[0]
+        head[0] = head[0].next
+
+        cur.prev = left
+        cur.next = build_bst_recur(mid + 1, end)
+        return cur
+
+    # keeps track of current head
+    head = [l]
+    return build_bst_recur(0,n)
 
 
 def compare_vector_and_tree(tree, it):
