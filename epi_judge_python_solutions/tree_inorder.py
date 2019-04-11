@@ -8,7 +8,6 @@ def inorder_traversal(tree):
     while s or tree:
         if tree:
             s.append(tree)
-            # Going left.
             tree = tree.left
         else:
             # Going up.

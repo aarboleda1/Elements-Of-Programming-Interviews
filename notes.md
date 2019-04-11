@@ -10,6 +10,14 @@ to solve a problem
 
 **DIDNT_GET_QUESTION** = 3, Didn't understand the problem. Some of these problems are difficult to understand, so sometimes I end up looking at the answer and realize what they weren't asking. Hoping this wouldn't happen in a real interview because the interviewer would be able to ask these questions
 
+
+WHITE_NINJA = 1
+- Represents a problem in EPI, that given good enough time, a good
+candidate should be able to solve
+
+BLACK_NINJA = 2
+- Represents a problem in EPI, that the interviewer isn't expecting the
+best and most perfect solution, but more of a stress test
 # TODO
 - [ ] 4.3, 4.11
 - [ ] 5.5, 5,9
@@ -30,27 +38,37 @@ to solve a problem
 been able to fully justify in an interview setting
 - [ MEDIUM ] 14.5, BST from pre order. very similar to 24.21
 - [ MEDIUM ] 24.21, Sorted List to BST very similar to 14.5
-
+- [ HARD ] Inorder Traversal of a BST without recursion
 - [ ] 15.4, 15.9
 - [ ] 16.5, 16.7
 - **Greedy Algorithms and Invariants** 4/31    
 - [ EASY ] 17.1 Compute Optimum Assignment of Tasks
 - [ DIDNT_GET_QUESTION ] 17.2 Schedule Optimum minimize waiting time
-- [ MEDIUM ] 17.3 The interval covering prls
-oblem
+- [ MEDIUM ] 17.3 The interval covering problem
 - [ MEDIUM ] 17.4 The 3-sum problem
 - [ ] 17.7 Compute maximum water trapped by a pair of vertical lines
-- [ ] Trapping water 24.32
+- [ MEDIUM ] Trapping water 24.32
 - [ ] 18.3
 - [ ] 19.9
 - [ ] 20.1
 Completed - Review on a weekly basis
 14.8
-Needs Work
-- bst_from_preorder 3/24, 4/3
-- bst_from_sorted_array 3/24, 4/3
 
-Tool Tips for Data Structures
+
+
+## Tool Tips for Data Structures
+# Arrays
+**Tips**
+- Filling an array from the front is slow, see if it's possible to *write
+values from the back*
+- Instead of deleting an entry, consider *overwriting* it.
+- It's incredibly easy to make *off-by-1* errors when operating on arrays
+reading past the last element of an array is a common error. Make sure
+to always carefully walk thru example when working with arrays
+**Know Array Libraries**
+- What is the difference between copy.deepcopy(A) and copy.copy(A)? Read this article to see the differences.
+https://realpython.com/copying-python-objects/
+
 
 # Graphs
 - It's natural to use a graph when the problem involves spatially connected
@@ -119,4 +137,17 @@ and new GPA, we cannot find the student by name without full traversal. However,
 with an additional hash table, we can directly go to the corresponding entry
 in the tree
 
-##
+## Tries
+- Efficient for string searches
+
+**Disadvantages of a Trie**
+The main disadvantage of tries is that they need lot of memory for storing
+the strings. For each node we have too many node pointers(equal to number of
+characters of the alphabet), If space is concern, then Ternary Search Tree
+can be preferred for dictionary implementations. In Ternary Search Tree,
+time complexity of search operation is O(h) where h is height of the tree.
+Ternary Search Trees also supports other operations supported by Trie like
+prefix search, alphabetical order printing and nearest neighbor search.
+
+The final conclusion is regarding tries data structure is that they are faster
+but require huge memory for storing the strings.
