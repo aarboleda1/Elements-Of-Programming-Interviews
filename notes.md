@@ -151,3 +151,19 @@ prefix search, alphabetical order printing and nearest neighbor search.
 
 The final conclusion is regarding tries data structure is that they are faster
 but require huge memory for storing the strings.
+
+## Primitive Types
+- Be very comfortable with bitwise operators, particularly XOR
+- Gayle McDowell: https://www.youtube.com/watch?v=NLKQEOgBAnw
+Bitwise Operators
+https://code.tutsplus.com/articles/understanding-bitwise-operators--active-11301
+
+Signed bit, if first digit is a 0, it's a positive number. If first number is a 1, then it is a negative number
+
+# Signedness
+- Signedness of a data type indicates whether or not a variable of that type
+can be a negative number. Specifically, if a numeric value is "unsigned", it
+can only represent only a positive number of zero
+- If a numeric variable is "signed," it can also represent a negative number
+because one of the bits of data is dedicated to representing "positive" or
+"negative".
