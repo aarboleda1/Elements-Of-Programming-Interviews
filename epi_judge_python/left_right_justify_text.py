@@ -1,5 +1,6 @@
 from test_framework import generic_test
 
+# 24.1
 
 def justify_text(words, L):
     cur_line_len, res, cur_line = 0, [], []

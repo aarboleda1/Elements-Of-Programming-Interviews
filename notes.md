@@ -41,7 +41,7 @@ been able to fully justify in an interview setting
 - [ HARD ] Inorder Traversal of a BST without recursion
 - [ ] 15.4, 15.9
 - [ ] 16.5, 16.7
-- **Greedy Algorithms and Invariants** 4/31    
+- **Greedy Algorithms and Invariants** 3/31    
 - [ EASY ] 17.1 Compute Optimum Assignment of Tasks
 - [ DIDNT_GET_QUESTION ] 17.2 Schedule Optimum minimize waiting time
 - [ MEDIUM ] 17.3 The interval covering problem
@@ -51,6 +51,8 @@ been able to fully justify in an interview setting
 - [ ] 18.3
 - [ ] 19.9
 - [ ] 20.1
+**Strings**
+- [ MEDIUM ] 24.1 left_right_justify_test.py, JustifyText 4/18
 Completed - Review on a weekly basis
 14.8
 
