@@ -30,6 +30,8 @@ best and most perfect solution, but more of a stress test
 - [ EASY ] 10.5 Compute the median of online data: 4/6
 **Searching**
 - [ ] 11.5, 11.10
+**Sorting**
+- [ EASY ] 13.1 intersect_sorted_arrays: 4/20
 **Hash Tables**
 - [ ] 12.4, 12,6
 - [ ] 13.8, 13.11
