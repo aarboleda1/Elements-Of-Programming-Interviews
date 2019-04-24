@@ -1,4 +1,4 @@
-# Grading System
+ # Grading System
 - This is my own grading system for myself how I assess my capability
 to solve a problem
 
@@ -41,7 +41,8 @@ been able to fully justify in an interview setting
 - [ MEDIUM ] 14.5, BST from pre order. very similar to 24.21
 - [ MEDIUM ] 24.21, Sorted List to BST very similar to 14.5
 - [ HARD ] Inorder Traversal of a BST without recursion
-- [ ] 15.4, 15.9
+- [ HARD ] 15.4 PowerSet  
+- [ HARD ] 15.9 Generate all subsets of size k
 - [ ] 16.5, 16.7
 - **Greedy Algorithms and Invariants** 3/31    
 - [ EASY ] 17.1 Compute Optimum Assignment of Tasks
@@ -171,3 +172,8 @@ can only represent only a positive number of zero
 - If a numeric variable is "signed," it can also represent a negative number
 because one of the bits of data is dedicated to representing "positive" or
 "negative".
+
+# Recursion 4/24 REDO
+- I did generate all subsets of of size k 15.5 and 15.4 generate the powerset,
+both were pretty difficult for me. Where I got lost was determining with confidence
+which subsets to generate
