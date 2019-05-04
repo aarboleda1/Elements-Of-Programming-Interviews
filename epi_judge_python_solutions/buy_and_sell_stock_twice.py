@@ -1,6 +1,15 @@
 from test_framework import generic_test
 
+"""
+Attempt Log
 
+- 5/3/19 0/10, didn't understand question. We need to know what buys and sells
+happened on day 1. So, we keep an extra data structure and cache the max_profit
+that could have taken place at each index.
+
+The 2nd step is to work backwards. LOOK ON LEETCODE, not sure about the solution
+in EPI and this still needs work
+"""
 def buy_and_sell_stock_twice(prices):
 
     max_total_profit, min_price_so_far = 0.0, float('inf')
@@ -11,7 +20,7 @@ def buy_and_sell_stock_twice(prices):
         min_price_so_far = min(min_price_so_far, price)
         max_total_profit = max(max_total_profit, price - min_price_so_far)
         first_buy_sell_profits[i] = max_total_profit
-
+    print(first_buy_sell_profits)
     # Backward phase. For each day, find the maximum profit if we make the
     # second buy on that day.
     max_price_so_far = float('-inf')
@@ -34,7 +43,8 @@ def buy_and_sell_stock_twice_constant_space(prices):
 
 
 if __name__ == '__main__':
-    exit(
-        generic_test.generic_test_main("buy_and_sell_stock_twice.py",
-                                       "buy_and_sell_stock_twice.tsv",
-                                       buy_and_sell_stock_twice))
+    buy_and_sell_stock_twice([100, 20, 90, 0, 20])
+    # exit(
+    #     generic_test.generic_test_main("buy_and_sell_stock_twice.py",
+    #                                    "buy_and_sell_stock_twice.tsv",
+    #                                    buy_and_sell_stock_twice))

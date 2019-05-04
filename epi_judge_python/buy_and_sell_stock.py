@@ -12,7 +12,7 @@ min_seen_so_far = min(A[i], min_seen_so_far)
 max_profit = max(A[i] - min_seen_so_far, max_profit)
 
 Attempt Log:
-- 5/2
+- 5/2, 14 minutes
 """
 
 

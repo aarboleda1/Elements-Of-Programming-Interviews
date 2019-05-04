@@ -4,7 +4,7 @@ from test_framework import generic_test
 difference
 
 Attempt Log:
-- 5/2 10/10 Got first try and can explain in an interview
+- 5/2 10/10 14 minutes Got first try and can explain in an interview
 """
 
 def buy_and_sell_stock_once(prices):
