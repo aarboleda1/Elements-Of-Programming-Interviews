@@ -6,7 +6,17 @@ from test_framework.test_utils import enable_executor_hook
 
 RED, WHITE, BLUE = range(3)
 
+"""
+- Attempted 5/3/19: Still needs work, understand the variant in the comment
+    Score: 6/10
+    # Keep the following invariants during partitioning:
+    # bottom group: A[:smaller].
+    # middle group: A[smaller:equal].
+    # unclassified group: A[equal:larger].
+    # top group: A[larger:].
 
+
+"""
 def dutch_flag_partition(pivot_index, A):
 
     pivot = A[pivot_index]

@@ -2,18 +2,18 @@ import functools
 
 from test_framework import generic_test
 from test_framework.test_utils import enable_executor_hook
+"""
+6.6
+Delete Duplicates from a Sorted Array
+e.g. A = [2,3,5,5,5,6,6,7]
+After deletion, the array is [2,3,5,6,7,5,6,7]
 
-# 6.6
-# Returns the number of valid entries after deletion.
+Write a program which takes a sorted array as input and updates it so that all
+duplicates have been removed and the remaining elements have been shifted left
+to fill the emptied indices. Return the number of valid elements after deletion
+"""
 def delete_duplicates(A):
-    if not A:
-        return 0
-    write_index = 0
-    for i in range(1, len(A)):
-        if A[write_index] != A[i]:
-            write_index += 1
-            A[write_index] = A[i]
-    return write_index + 1
+    pass
 
 
 @enable_executor_hook

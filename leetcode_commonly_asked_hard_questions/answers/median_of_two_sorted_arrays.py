@@ -8,25 +8,24 @@ You may assume nums1 and nums2 cannot be both empty.
 """
 
 
-def findMedianSortedArrays(self, A, B):
+def findMedianSortedArrays(A, B):
     m, n = len(A), len(B)
     if m > n:
-        A, B, m, n = B, A, n, m
-    if n == 0:
-        raise ValueError
+        return findMedianSortedArrays(B, A)
 
-    imin, imax, half_len = 0, m, (m + n + 1) // 2
-    while imin <= imax:
+    lo, hi, half_len = 0, m, (m + n + 1) // 2
+    while lo <= hi:
         # partition with smaller array and do a binary search
-        # use i as a midpoint and do same logic as a binary search
-        i = (imin + imax) / 2
+        # use i as a midpoint and perform binary search logic
+        # on this partitioned array
+        i = (lo + hi) / 2
         j = half_len - i
-        if i < m and B[j-1] > A[i]:
+        if i < m and B[j - 1] > A[i]:
             # i is too small, must increase it
-            imin = i + 1
-        elif i > 0 and A[i-1] > B[j]:
+            lo = i + 1
+        elif i > 0 and A[i - 1] > B[j]:
             # i is too big, must decrease it
-            imax = i - 1
+            hi = i - 1
         else:
             # i is perfect, we now need to calculate
             # the median based on i and j
@@ -35,11 +34,11 @@ def findMedianSortedArrays(self, A, B):
             # be an out of bound index, to be -infinity
             # do the same for j == 0 and B[j - 1]
             if i == 0:
-                max_of_left = B[j-1]
+                max_of_left = B[j - 1]
             elif j == 0:
-                max_of_left = A[i-1]
+                max_of_left = A[i - 1]
             else:
-                max_of_left = max(A[i-1], B[j-1])
+                max_of_left = max(A[i - 1], B[j - 1])
 
             if (m + n) % 2 == 1:
                 return max_of_left
