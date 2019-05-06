@@ -4,6 +4,39 @@ from typing import List
 from collections import defaultdict
 
 
+"""This implementation requires creating a graph in which
+users can follow and unfollow each other. The ultimate goal
+is to get a newsFeed.
+
+If you work backwards from this, you'll see that the
+most recently added tweets will be merge K sorted lists whether
+they be arrays or linked lists of the 10 most recent stamps
+
+Let's first design what a basic design would be. Since it is a social graph,
+we'll firstly need a User object, which will hold a list of tweets and following
+ids
+
+Now, when we follow, post, or unfollow, we can use the user hash map to determine
+
+
+target = 100, A = [1,30]
+100 - 30 = 70
+"""
+"""
+Twitter API Design
+
+User:
+    tweets
+    following
+
+Twitter:
+    id_to_user_map
+
+
+
+Attempt Log
+- 5/4
+"""
 class Tweet:
     def __init__(self, id):
         self.timestamp = datetime.now()

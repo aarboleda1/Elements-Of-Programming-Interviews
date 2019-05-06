@@ -25,7 +25,7 @@ if __name__ == '__main__':
     assert ans == 0
     # ---------------------------------------------------
 
-    ans = buy_and_sell_stock_twice([100, 20, 30, 80, 50])
+    ans = buy_and_sell_stock_twice([20, 30, 80, 50])
     assert ans == 0
     # exit(
     #     generic_test.generic_test_main("buy_and_sell_stock_twice.py",
