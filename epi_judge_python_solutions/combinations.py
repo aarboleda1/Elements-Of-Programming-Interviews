@@ -1,6 +1,19 @@
 from test_framework import generic_test, test_utils
 
+"""
+Similar approach to the the power_set. The key here is to notice that
+there are 2 possibilities when generating a given subset.
 
+1. The subset does not contain 1
+2. The subset does contain 1
+
+For the first case, we genreate and return all subsets of size k of [2,3,...n].
+For the second case, we compute all k - 1 sized subsets of [2,3,...n] and then
+add 1 to each subset
+
+History Log:
+- 5/8, Didn't get. Still needs more work on the case analysis
+"""
 def combinations(n, k):
     def directed_combinations(offset, partial_combination):
         if len(partial_combination) == k:

@@ -4,23 +4,17 @@ from test_framework import generic_test, test_utils
 the empty set and S itself.
 
 Write a function that takes as input a set and returns its powerset
+- 5/7 [HARD]
 """
 
-def generate_power_set(S):
-    def directed_power_set(to_be_selected, selected_so_far):
-        if to_be_selected == len(S):
-            power_set.append(list(selected_so_far))
-            return
-        # choices
-        directed_power_set(to_be_selected + 1, selected_so_far)
-        directed_power_set(
-            to_be_selected + 1,
-            selected_so_far + [S[to_be_selected]]
-        )
-    power_set = []
-    directed_power_set(0, [])
-    return power_set
 
+def generate_power_set(nums):
+    res = [[]]
+    for num in nums:
+        res += [
+            item + [num] for item in res
+        ]
+    return res
 
 if __name__ == "__main__":
     exit(

@@ -26,7 +26,8 @@ best and most perfect solution, but more of a stress test
 - [ ] 8.3, 8.8
 - [ ] 9.11
 **Heaps** 4/6
-- [ EASY ] 10.4 Compute the k closest stars: 4/6
+- [ EASY ] 10.4 Compute the k closest stars:
+  - 4/6
 - [ EASY ] 10.5 Compute the median of online data: 4/6
 **Searching**
 - [ ] 11.5, 11.10
@@ -36,13 +37,21 @@ best and most perfect solution, but more of a stress test
 - [ ] 12.4, 12,6
 - [ ] 13.8, 13.11
 - **BST Problems** 4/6
-- [ MEDIUM ] 14.4 Least Common Ancestor 4/1 - I got it, but probably wouldn't have
+- [ MEDIUM ] 14.4 Least Common Ancestor
+    - 4/1 - I got it, but probably wouldn't have
 been able to fully justify in an interview setting
 - [ MEDIUM ] 14.5, BST from pre order. very similar to 24.21
 - [ MEDIUM ] 24.21, Sorted List to BST very similar to 14.5
 - [ HARD ] Inorder Traversal of a BST without recursion
-- [ HARD ] 15.4 PowerSet  
-- [ HARD ] 15.9 Generate all subsets of size k
+
+**Recursion**
+- [ HARD ] 15.4 PowerSet
+    - 5/7, Make sure to go over this problem using the iterative
+      version
+- [ HARD ] 15.5 Generate all subsets of size k,
+    - 5/8
+
+
 - [ ] 16.5, 16.7
 - **Greedy Algorithms and Invariants** 3/31    
 - [ EASY ] 17.1 Compute Optimum Assignment of Tasks

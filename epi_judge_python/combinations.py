@@ -1,21 +1,21 @@
 from test_framework import generic_test, test_utils
 
-
+"""
+- 5/8/19
+"""
 def combinations(n, k):
-    def directed_combinations(offset, partial_combination):
-        if len(partial_combination) == k:
-            res.append(partial_combination)
+    all_subsets = []
+    def recur(subset, offset):
+        if len(subset) == k:
+            all_subsets.append(subset)
             return
-        # Generate remaining combinations over (offset, ..., n - 1) of size
-        # num_remaining
-        num_remaining = k - len(partial_combination)
+        num_rem = k - len(subset)
         i = offset
-        while i <= n and num_remaining <= n - i + 1:
-            directed_combinations(i + 1, partial_combination + [i])
+        while i <= n and num_rem <= n - i + 1:
+            recur(subset + [i], i + 1)
             i += 1
-    res = []
-    directed_combinations(1, [])
-    return res
+    recur([], 1)
+    return all_subsets
 
 
 if __name__ == '__main__':

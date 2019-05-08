@@ -27,7 +27,7 @@ if __name__ == '__main__':
 
     ans = buy_and_sell_stock_twice([20, 30, 80, 50])
     assert ans == 0
-    # exit(
+    # exit(sign_t
     #     generic_test.generic_test_main("buy_and_sell_stock_twice.py",
     #                                    "buy_and_sell_stock_twice.tsv",
     #                                    buy_and_sell_stock_twice))
