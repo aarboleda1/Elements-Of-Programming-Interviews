@@ -45,11 +45,12 @@ been able to fully justify in an interview setting
 - [ HARD ] Inorder Traversal of a BST without recursion
 
 **Recursion**
+Go over time complexity of these
 - [ HARD ] 15.4 PowerSet
     - 5/7, Make sure to go over this problem using the iterative
       version
 - [ HARD ] 15.5 Generate all subsets of size k,
-    - 5/8
+    - 5/8, Still need to understand the recursion aspect
 
 
 - [ ] 16.5, 16.7

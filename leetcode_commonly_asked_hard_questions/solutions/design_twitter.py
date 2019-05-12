@@ -112,7 +112,6 @@ class Twitter:
     def _getKMostTweets(self, tweets, size, newsFeed):
         for tweet in tweets:
             heappush(newsFeed, tweet)
-            print(newsFeed, tweets)
             if len(newsFeed) > size:
                 heappop(newsFeed)
         return newsFeed
@@ -128,6 +127,79 @@ class Twitter:
         Follower unfollows a followee. If the operation is invalid, it should be a no-op.
         """
         self.userGraph.unfollow(followerId, followeeId)
+
+# ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
+
+"""SOLUTION 2
+"""
+
+class Twitter_V2:
+    def __init__(self):
+        """
+        Initialize your data structure here.
+        """
+        # user -> List[Tuple(int, int)] users to tweets of time and tweetId
+        self.tweets = {}
+        # follower -> List[int]
+        self.followees = {}
+        self.time = 0
+
+    def postTweet(self, userId, tweetId):
+        """
+        Compose a new tweet.
+        :type userId: int
+        :type tweetId: int
+        :rtype: None
+        """
+        self.tweets[userId] = self.tweets.get(userId, []) + [(self.time, tweetId)]
+        self.time += 1
+
+    def getNewsFeed(self, userId):
+        """
+        Retrieve the 10 most recent tweet ids in the user's news feed. Each item in the news feed must be posted by users who the user followed or by the user herself. Tweets must be ordered from most recent to least recent.
+        :type userId: int
+        :rtype: List[int]
+        """
+        heap, tweets = [], self.tweets
+        followees = self.followees.get(userId, set()) | set([userId])
+        for followeeId in followees:
+            if followeeId in tweets and tweets[followeeId]:
+                time, tweetId = tweets[followeeId][-1]
+                heappush(heap, (-time, tweetId, followeeId, len(tweets[followeeId]) - 1))
+        newsFeed = []
+        for _ in range(10):
+            if heap:
+                time, tweetId, followeeId, idx = heappop(heap)
+                newsFeed.append(tweetId)
+                if idx > 0: # they have more tweets
+                    newTime, newTweetId = self.tweets[followeeId][idx - 1]
+                    heappush(heap, (-newTime, newTweetId, followeeId, idx - 1))
+
+        return newsFeed
+
+    def follow(self, followerId, followeeId):
+        """
+        Follower follows a followee. If the operation is invalid, it should be a no-op.
+        :type followerId: int
+        :type followeeId: int
+        :rtype: None
+        """
+        self.followees[followerId] =  self.followees.get(followerId, set()) | set([followeeId])
+
+
+    def unfollow(self, followerId, followeeId):
+        """
+        Follower unfollows a followee. If the operation is invalid, it should be a no-op.
+        :type followerId: int
+        :type followeeId: int
+        :rtype: None
+        """
+        if followerId in self.followees:
+            self.followees[followerId].discard(followeeId)
 
 
 if __name__ == "__main__":
