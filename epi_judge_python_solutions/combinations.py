@@ -12,7 +12,9 @@ For the second case, we compute all k - 1 sized subsets of [2,3,...n] and then
 add 1 to each subset
 
 History Log:
-- 5/8, Didn't get. Still needs more work on the case analysis
+- 5/8, [ATTEMPTED] Didn't get. Still needs more work on the case analysis
+- 5/13 [ATTEMPTED] I'd say i mostly solved, but had an off by one error, that I
+didn't catch until i ran and looked thru it in the tests
 """
 def combinations(n, k):
     def directed_combinations(offset, partial_combination):

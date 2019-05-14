@@ -34,6 +34,9 @@ O(n) times the 2^n subsets yields O(n * (2^n)).
 
 History Log
 - 5/7 [HARD]
+- 5/12 [SOLVED] make sure to note the time complexity is O(N * 2 ^ N) because
+we process O(2 ^ N) for the numbers and at each function call the concatenation
+of 2 lists in python is O(N)
 """
 
 

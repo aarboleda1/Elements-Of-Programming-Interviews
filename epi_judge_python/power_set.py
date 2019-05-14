@@ -4,17 +4,17 @@ from test_framework import generic_test, test_utils
 the empty set and S itself.
 
 Write a function that takes as input a set and returns its powerset
-- 5/7 [HARD]
+
+input: [0, 1, 2]
+output: [[], [0], [1], [2], [0,1], [0,2], [1,2], [0,1,2]]
+
+- 5/7 [ATTEMPTED]
+- 5/13 [SOLVED] to review notes!
 """
 
 
 def generate_power_set(nums):
-    res = [[]]
-    for num in nums:
-        res += [
-            item + [num] for item in res
-        ]
-    return res
+    pass
 
 if __name__ == "__main__":
     exit(

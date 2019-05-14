@@ -1,23 +1,6 @@
- # Grading System
-- This is my own grading system for myself how I assess my capability
-to solve a problem
-
-**EASY** = 0, I solved it without any help using optimum time complexity and space complexity. I am able to justify every step and different approaches
-
-**MEDIUM** = 1, Solved but needed some clarification and took a long time to understand the problem.
-
-**HARD** = 2, Needed help to solve and didn't solve on my own. Had to look up answer
-
-**DIDNT_GET_QUESTION** = 3, Didn't understand the problem. Some of these problems are difficult to understand, so sometimes I end up looking at the answer and realize what they weren't asking. Hoping this wouldn't happen in a real interview because the interviewer would be able to ask these questions
-
-
-WHITE_NINJA = 1
-- Represents a problem in EPI, that given good enough time, a good
-candidate should be able to solve
-
-BLACK_NINJA = 2
-- Represents a problem in EPI, that the interviewer isn't expecting the
-best and most perfect solution, but more of a stress test
+# HISTORY LOG
+5/13: power_set
+5/14: power_set
 # TODO
 - [ ] 4.3, 4.11
 - [ ] 5.5, 5,9
@@ -64,6 +47,7 @@ Go over time complexity of these
 - [ ] 18.3
 - [ ] 19.9
 - [ ] 20.1
+
 **Strings**
 - [ MEDIUM ] 24.1 left_right_justify_test.py, JustifyText 4/18
 Completed - Review on a weekly basis
@@ -187,3 +171,25 @@ because one of the bits of data is dedicated to representing "positive" or
 - I did generate all subsets of of size k 15.5 and 15.4 generate the powerset,
 both were pretty difficult for me. Where I got lost was determining with confidence
 which subsets to generate
+
+
+# Grading System
+- This is my own grading system for myself how I assess my capability
+to solve a problem
+
+**EASY** = 0, I solved it without any help using optimum time complexity and space complexity. I am able to justify every step and different approaches
+
+**MEDIUM** = 1, Solved but needed some clarification and took a long time to understand the problem.
+
+**HARD** = 2, Needed help to solve and didn't solve on my own. Had to look up answer
+
+**DIDNT_GET_QUESTION** = 3, Didn't understand the problem. Some of these problems are difficult to understand, so sometimes I end up looking at the answer and realize what they weren't asking. Hoping this wouldn't happen in a real interview because the interviewer would be able to ask these questions
+
+
+WHITE_NINJA = 1
+- Represents a problem in EPI, that given good enough time, a good
+candidate should be able to solve
+
+BLACK_NINJA = 2
+- Represents a problem in EPI, that the interviewer isn't expecting the
+best and most perfect solution, but more of a stress test
