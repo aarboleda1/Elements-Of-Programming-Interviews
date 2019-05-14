@@ -5,7 +5,12 @@ from test_framework import generic_test
 from test_framework.test_failure import TestFailure
 from test_framework.test_utils import enable_executor_hook
 
+"""
+Intution:
 
+    The tricky part is attaching the root to its subtrees. We need to
+- [ ATTEMPTED ] 5/14
+"""
 def bst_to_doubly_linked_list(tree):
 
     HeadAndTail = collections.namedtuple('HeadAndTail', ('head', 'tail'))

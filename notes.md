@@ -1,10 +1,15 @@
 # HISTORY LOG
+- *5/11* Design Twitter
 - *5/13*: power_set
 - *5/14*:
-    - power_set [SOLVED],
-    - is_tree_a_bst.py [SOLVED]
-    - bst_from_preorder_sequence [SOLVED]
-    - sorted list to BST [SOLVED]
+    ***- [ATTEMPTED] 24.21 BST to Doubly-Linked List: REDO AND WHITEBOARD, answer is still not clear******
+    - [ATTEMPTED] 24.22 bst_merge
+
+    - [SOLVED] power_set, "Generate powersets"
+    - [SOLVED] 14.1 is_tree_a_bst.py "Given a Binary Tree determine if it is a BST"
+    - [SOLVED] bst_from_preorder_sequence "Generate BST from preorder_sequence"
+    - [SOLVED] sorted list to BST "Given a sorted list, generate a BST"
+
 # TODO
 - [ ] 4.3, 4.11
 - [ ] 5.5, 5,9
@@ -29,14 +34,14 @@
 - [ ] 13.8, 13.11
 
 **BST Problems** 4/6, 5/14
-- [ SOLVED ] 14.5, BST from pre-order. very similar to 24.21 *5/14*
-- [ SOLVED ] 14.1 5/14
-- [ MEDIUM ] 14.4 Least Common Ancestor
-    - 4/1 - I got it, but probably wouldn't have
-been able to fully justify in an interview setting
-- [ SOLVED ] 14.5, BST from pre order. very similar to 24.21, *5/14*
-- [ SOLVED ] 24.21, Sorted List to BST very similar to 14.5, *5/14*
-- [ HARD ] Inorder Traversal of a BST without recursion
+- [ ATTEMPTED ] 24.21 BST to Doubly-Linked List *5/1* *4/1*,
+- [ ATTEMPTED ] 14.4 Least Common Ancestor *4/1*
+- [ ATTEMPTED ] 24.21, Sorted List to BST very similar to 14.5, *4/1*
+- [ ATTEMPTED ] Inorder Traversal of a BST without recursion *4/1*
+- [ SOLVED ] Sorted list to BST *5/14*
+- [ SOLVED ] 14.5, BST from pre-order sequence. very similar to 24.21 *5/14*
+- [ SOLVED ] 24.22 Merge BST  *5/14*
+- [ SOLVED ] 14.1 Determine if a tree is a BST *5/14*
 
 **Recursion**
 Go over time complexity of these
