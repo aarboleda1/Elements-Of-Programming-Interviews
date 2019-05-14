@@ -1,6 +1,6 @@
 # HISTORY LOG
-*5/13*: power_set
-*5/14*:
+- *5/13*: power_set
+- *5/14*:
     - power_set [SOLVED],
     - is_tree_a_bst.py [SOLVED]
     - bst_from_preorder_sequence [SOLVED]
@@ -12,17 +12,22 @@
 - [ ] 7.10
 - [ ] 8.3, 8.8
 - [ ] 9.11
+
 **Heaps** 4/6
 - [ EASY ] 10.4 Compute the k closest stars:
   - 4/6
 - [ EASY ] 10.5 Compute the median of online data: 4/6
+
 **Searching**
 - [ ] 11.5, 11.10
+
 **Sorting**
 - [ EASY ] 13.1 intersect_sorted_arrays: 4/20
+
 **Hash Tables**
 - [ ] 12.4, 12,6
 - [ ] 13.8, 13.11
+
 **BST Problems** 4/6, 5/14
 - [ SOLVED ] 14.5, BST from pre-order. very similar to 24.21 *5/14*
 - [ SOLVED ] 14.1 5/14
@@ -40,10 +45,9 @@ Go over time complexity of these
       version
 - [ HARD ] 15.5 Generate all subsets of size k,
     - 5/8, Still need to understand the recursion aspect
-
-
 - [ ] 16.5, 16.7
-- **Greedy Algorithms and Invariants** 3/31    
+
+**Greedy Algorithms and Invariants** 3/31    
 - [ EASY ] 17.1 Compute Optimum Assignment of Tasks
 - [ DIDNT_GET_QUESTION ] 17.2 Schedule Optimum minimize waiting time
 - [ MEDIUM ] 17.3 The interval covering problem
@@ -191,11 +195,11 @@ to solve a problem
 
 **DIDNT_GET_QUESTION** = 3, Didn't understand the problem. Some of these problems are difficult to understand, so sometimes I end up looking at the answer and realize what they weren't asking. Hoping this wouldn't happen in a real interview because the interviewer would be able to ask these questions
 
-
-WHITE_NINJA = 1
+## NINJA GRADING (The problems in the back of the book)
+**WHITE_NINJA** = 1
 - Represents a problem in EPI, that given good enough time, a good
 candidate should be able to solve
 
-BLACK_NINJA = 2
+**BLACK_NINJA** = 2
 - Represents a problem in EPI, that the interviewer isn't expecting the
 best and most perfect solution, but more of a stress test
