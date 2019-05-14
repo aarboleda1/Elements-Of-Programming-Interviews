@@ -7,7 +7,10 @@ from test_framework.binary_tree_utils import (binary_tree_height,
 from test_framework.test_failure import TestFailure
 from test_framework.test_utils import enable_executor_hook
 
-
+"""
+- 5/14 [ SOLVED ] take note that the sortedness of the input array satisfies
+the BST property that of left < root < right
+"""
 def build_min_height_bst_from_sorted_array(A):
     def build_min_height_bst_from_sorted_subarray(start, end):
         if start >= end:

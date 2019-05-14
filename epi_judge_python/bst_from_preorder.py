@@ -1,21 +1,46 @@
 from bst_node import BstNode
 from test_framework import generic_test
+from collections import deque
+"""
+Rebuild a BST from pre-order sequence
+[3, 2, 1, 5, 4, 6]
 
 
+[3, 2, 1, 5, 4, 6]
+
+        3  [2, 1, 5, 4, 6]
+    2       5 [1, 5, 4, 6]
+  1  None  4      [4, 6]
+ None
+
+      3
+    2
+  1
+
+5/14 - [SOLVED]
+"""
 def rebuild_bst_from_preorder(preorder_sequence):
-    def make(lower_bound, upper_bound):
-        if index[0] == len(preorder_sequence):
-            return None
-        root = preorder_sequence[index[0]]
-        if not lower_bound <= root <= upper_bound:
-            return None
-        index[0] += 1
-        L = make(lower_bound, root)
-        R = make(root, upper_bound)
-        return BstNode(root, L, R)
+    if not preorder_sequence:
+        return None
+    preorder_sequence = deque(preorder_sequence)
 
-    index = [0]
-    return make(float("-inf"), float("inf"))
+    def rebuild_bst_helper(lo, hi):
+        if not preorder_sequence:
+            return None
+
+        data = preorder_sequence[0]
+        # satisfy bst property
+        if data > hi or data < lo:
+            return None
+
+        root = BstNode(data)
+        preorder_sequence.popleft()
+        root.left = rebuild_bst_helper(lo, data)
+        root.right = rebuild_bst_helper(data, hi)
+        return root
+    return rebuild_bst_helper(float("-inf"), float("inf"))
+
+
 
 
 if __name__ == "__main__":

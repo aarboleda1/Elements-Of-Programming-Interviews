@@ -7,18 +7,25 @@ from test_framework.test_failure import TestFailure
 from bst_node import BstNode
 from test_framework.test_utils import enable_executor_hook
 
+"""
+Build a min height BST from a sorted array
+5/14 - [SOLVED]
+"""
+
 
 def build_min_height_bst_from_sorted_array(A):
-    def build_bst_recur(left, right):
-        if left >= right:
+    def bst_builder(start, end):
+        if start >= end:
             return None
-        mid = (left + right) // 2
-        root = BstNode(A[mid])
-        root.left = build_bst_recur(left, mid)
-        root.right = build_bst_recur(mid + 1, right)
+        else:
+            mid = (start + end) // 2
+            root = BstNode(A[mid])
+            root.left = bst_builder(start, mid)
+            root.right = bst_builder(mid + 1, end)
         return root
 
-    return build_bst_recur(0, len(A))
+    return bst_builder(0, len(A))
+
 
 @enable_executor_hook
 def build_min_height_bst_from_sorted_array_wrapper(executor, A):

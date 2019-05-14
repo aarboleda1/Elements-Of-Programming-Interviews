@@ -1,6 +1,10 @@
 # HISTORY LOG
-5/13: power_set
-5/14: power_set
+*5/13*: power_set
+*5/14*:
+    - power_set [SOLVED],
+    - is_tree_a_bst.py [SOLVED]
+    - bst_from_preorder_sequence [SOLVED]
+    - sorted list to BST [SOLVED]
 # TODO
 - [ ] 4.3, 4.11
 - [ ] 5.5, 5,9
@@ -19,12 +23,14 @@
 **Hash Tables**
 - [ ] 12.4, 12,6
 - [ ] 13.8, 13.11
-- **BST Problems** 4/6
+**BST Problems** 4/6, 5/14
+- [ SOLVED ] 14.5, BST from pre-order. very similar to 24.21 *5/14*
+- [ SOLVED ] 14.1 5/14
 - [ MEDIUM ] 14.4 Least Common Ancestor
     - 4/1 - I got it, but probably wouldn't have
 been able to fully justify in an interview setting
-- [ MEDIUM ] 14.5, BST from pre order. very similar to 24.21
-- [ MEDIUM ] 24.21, Sorted List to BST very similar to 14.5
+- [ SOLVED ] 14.5, BST from pre order. very similar to 24.21, *5/14*
+- [ SOLVED ] 24.21, Sorted List to BST very similar to 14.5, *5/14*
 - [ HARD ] Inorder Traversal of a BST without recursion
 
 **Recursion**
