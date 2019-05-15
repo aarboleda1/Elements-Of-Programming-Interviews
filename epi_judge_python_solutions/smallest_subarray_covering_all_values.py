@@ -24,6 +24,8 @@ def find_smallest_sequentially_covering_subset(paragraph, keywords):
     shortest_distance = float('inf')
     result = Subarray(-1, -1)
     for i, p in enumerate(paragraph):
+
+
         if p in keyword_to_idx:
             keyword_idx = keyword_to_idx[p]
             if keyword_idx == 0:  # First keyword.

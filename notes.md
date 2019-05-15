@@ -34,8 +34,10 @@ REDO AND WHITEBOARD, answer is still not clear
 - [ EASY ] 13.1 intersect_sorted_arrays: 4/20
 
 **Hash Tables** 5/14
+- 12.6 find_smallest_subarray_covering_set.py
+  - [ ATTEMPTED ] - 5/14
+  - [ SOLVED ] - 5/15
 - [ ] 12.4,
-- [ ATTEMPTED ] 12.6 find_smallest_subarray_covering_set.py
 - [ ] 13.8
 - [ ] 13.11
 
