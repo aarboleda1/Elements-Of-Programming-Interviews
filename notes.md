@@ -1,14 +1,18 @@
 # HISTORY LOG
-- *5/11* Design Twitter
-- *5/13*: power_set
+- *5/15*:
+  - [ SOLVED ] 12.6 find_smallest_subarray_covering_set.py
 - *5/14*:
-    ***- [ATTEMPTED] 24.21 BST to Doubly-Linked List: REDO AND WHITEBOARD, answer is still not clear******
-    - [ATTEMPTED] 24.22 bst_merge
+- [ ATTEMPTED ] 24.21 BST to Doubly-Linked List:
+REDO AND WHITEBOARD, answer is still not clear
+- [ ATTEMPTED ] 24.22 bst_merge
+- [ ATTEMPTED ] 12.6 find_smallest_subarray_covering_set.py
 
-    - [SOLVED] power_set, "Generate powersets"
-    - [SOLVED] 14.1 is_tree_a_bst.py "Given a Binary Tree determine if it is a BST"
-    - [SOLVED] bst_from_preorder_sequence "Generate BST from preorder_sequence"
-    - [SOLVED] sorted list to BST "Given a sorted list, generate a BST"
+- [ SOLVED ] power_set, "Generate powersets"
+- [ SOLVED ] 14.1 is_tree_a_bst.py "Given a Binary Tree determine if it is a BST"
+- [ SOLVED ] bst_from_preorder_sequence "Generate BST from preorder_sequence"
+- [ SOLVED ] sorted list to BST "Given a sorted list, generate a BST"
+- *5/13*: power_set
+- *5/11* Design Twitter
 
 # TODO
 - [ ] 4.3, 4.11
@@ -29,9 +33,11 @@
 **Sorting**
 - [ EASY ] 13.1 intersect_sorted_arrays: 4/20
 
-**Hash Tables**
-- [ ] 12.4, 12,6
-- [ ] 13.8, 13.11
+**Hash Tables** 5/14
+- [ ] 12.4,
+- [ ATTEMPTED ] 12.6 find_smallest_subarray_covering_set.py
+- [ ] 13.8
+- [ ] 13.11
 
 **BST Problems** 4/6, 5/14
 - [ ATTEMPTED ] 24.21 BST to Doubly-Linked List *5/1* *4/1*,
