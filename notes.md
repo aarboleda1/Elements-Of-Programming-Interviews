@@ -1,7 +1,11 @@
 # HISTORY LOG
 - *5/16*
   - [ ATTEMPTED ] 24.21 BST to Doubly-Linked List
-  - [ ] 24.22
+  - [ ATTEMPTED ]sorted_list_to_bst
+  - [ SOLVED ] 24.22 bst_merge, do above problems, and this problem becomes very
+    trivial
+  - [ SOLVED ] 12.5 Find the nearest repeated entries in an array
+
 - *5/15*:
   - [ SOLVED ] 12.6 find_smallest_subarray_covering_set.py
 - *5/14*:

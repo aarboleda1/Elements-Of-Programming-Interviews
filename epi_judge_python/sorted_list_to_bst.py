@@ -18,7 +18,6 @@ def build_bst_from_sorted_doubly_list(l, n):
         # get the current element
         cur = head[0]
         head[0] = head[0].next
-
         cur.prev = left
         cur.next = build_bst_recur(mid + 1, end)
         return cur

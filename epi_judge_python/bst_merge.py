@@ -12,10 +12,7 @@ than a few bytes
 [ ] 5/14
 """
 def merge_two_bsts(A, B):
-    alistA = bst_to_sorted_dll(A)
-    alistB = bst_to_sorted_dll(B)
-    merged = merge_two_dll(alistA, alistB)
-    return sorted_dll_to_bst(merged)
+    pass
 
 
 if __name__ == '__main__':

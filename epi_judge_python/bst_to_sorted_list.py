@@ -11,6 +11,11 @@ linked-list on the same elements
 [ ATTEMPTED ] - 5/14
 [ ATTEMPTED ] - 5/16
 
+Time Complexity: We do a constant amount of work per tree node, so the time
+complexity is O(N).
+
+Space Complexity: O(h) where h is the height of the BST. The worst case for
+height is where the height is N number of nodes
 """
 
 
