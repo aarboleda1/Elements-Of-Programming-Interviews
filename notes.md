@@ -1,6 +1,9 @@
 # HISTORY LOG
 - *5/15*:
+  - [ ATTEMPTED ] 12.8 longest_subarray_with_distinct_entries.py
+  - [ ATTEMPTED ] 12.7 find_smallest_sequentially_covering_subset.py
   - [ SOLVED ] 12.6 find_smallest_subarray_covering_set.py
+
 - *5/14*:
 - [ ATTEMPTED ] 24.21 BST to Doubly-Linked List:
 REDO AND WHITEBOARD, answer is still not clear
@@ -37,6 +40,8 @@ REDO AND WHITEBOARD, answer is still not clear
 - 12.6 find_smallest_subarray_covering_set.py
   - [ ATTEMPTED ] - 5/14
   - [ SOLVED ] - 5/15
+- 12.7 find_smallest_sequentially_covering_subset.py
+  - [ ATTEMPTED ] - 5/15
 - [ ] 12.4,
 - [ ] 13.8
 - [ ] 13.11
