@@ -1,8 +1,11 @@
 from test_framework import generic_test
 
+"""HISTORY LOG
 
+[ ATTEMPTED ] - 5/15
+
+"""
 def longest_subarray_with_distinct_entries(A):
-    # TODO - you fill in here.
     return 0
 
 

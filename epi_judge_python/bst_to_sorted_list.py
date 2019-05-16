@@ -5,34 +5,38 @@ from test_framework.test_failure import TestFailure
 from test_framework.test_utils import enable_executor_hook
 
 """
-Design an algorithm that takes a BST as input and returns a sorted doubly linked
-list on the same elements
-[ ATTEMPTED ] 5/14
+24.21
+Design an algorithm that takes a BST as input and returns a sorted doubly
+linked-list on the same elements
+[ ATTEMPTED ] - 5/14
+[ ATTEMPTED ] - 5/16
 
 """
 
 
 def bst_to_doubly_linked_list(tree):
-    HeadTailNode = namedtuple('HeadTailNode', ('head', 'tail'))
+    HeadAndTail = namedtuple('HeadAndTail', ('head', 'tail'))
 
-    def bst_to_dll_helper(tree):
-        if not tree:
-            return HeadTailNode(None, None)
+    def recur(root):
+        if not root:
+            return HeadAndTail(None, None)
 
-        left = bst_to_dll_helper(tree.left)
-        right = bst_to_dll_helper(tree.right)
-        print(left)
+        # Recursively build left and right lists
+        left = recur(root.left)
+        right = recur(root.right)
+
+        # Root to left and right lists
+        root.left = left.tail
+        root.right = right.head
+
+        # Left and right lists to root
         if left.tail:
-            left.tail.right = tree
-        tree.left = left.tail
-
-        tree.right = right.head
+            left.tail.right = root
         if right.head:
-            right.head.left = tree
+            right.head.left = root
 
-        return HeadTailNode(left.head or tree, right.tail or tree)
-    return bst_to_dll_helper(tree).head
-
+        return HeadAndTail(left.head or root, right.tail or root)
+    return recur(tree).head
 
 @enable_executor_hook
 def bst_to_doubly_linked_list_wrapper(executor, tree):

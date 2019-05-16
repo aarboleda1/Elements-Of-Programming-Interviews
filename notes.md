@@ -1,4 +1,7 @@
 # HISTORY LOG
+- *5/16*
+  - [ ATTEMPTED ] 24.21 BST to Doubly-Linked List
+  - [ ] 24.22
 - *5/15*:
   - [ SOLVED ] 12.6 find_smallest_subarray_covering_set.py
 - *5/14*:
