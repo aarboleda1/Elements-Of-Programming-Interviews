@@ -2,6 +2,12 @@
 """
 Given a well formed binary tree, implement an iterator that iterates over
 it in post-order fashion.
+
+Good Writeup
+https://leetcode.com/problems/binary-search-tree-iterator/discuss/52647/Nice-Comparison-(and-short-Solution)
+
+HISTORY LOG
+- [ SOLVED ] 5/17
 """
 
 

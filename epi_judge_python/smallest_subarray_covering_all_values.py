@@ -30,49 +30,14 @@ rem_to_cover = 0
 left = 0
 
 # HISTORY LOG
-[  ] - 5/15
+[ ATTEMPTED ] - 5/17
+[ ATTEMPTED ] - 5/15
 """
 
 
-def is_ordered(words_info, keywords):
-    for i in range(1, len(keywords)):
-        prev = keywords[i - 1]
-        cur = keywords[i]
-        (_, prev_idx) = words_info[prev]
-        (_, cur_idx) = words_info[cur]
-        if prev_idx > cur_idx:
-            return False
-    return True
 
 def find_smallest_sequentially_covering_subset(paragraph, keywords):
-    # keyword: (count, mostRecentlySeenIndex)
-    words_info = {kw: (0, -1) for kw in keywords}
-    num_rem_to_cover = len(keywords)
-    left, res = 0, Subarray(0, 0)
-    for i, word in enumerate(paragraph):
-        if word in keywords:
-            cur_count, idx = words_info[word]
-            if cur_count == 0:
-                num_rem_to_cover -= 1
-            # update to most recently seen index
-            words_info[word] = (cur_count + 1, i)
-        while num_rem_to_cover == 0 and is_ordered(words_info, keywords):
-            if res == Subarray(0, 0) or i - left < res[1] - res[0]:
-                res = Subarray(left, i)
-
-            left_word = paragraph[left]
-            if left_word in keywords:
-                (count, cur_idx) = words_info[left_word]
-                new_count = count - 1
-                # We need this to make sure that the current subarr
-                # covers all words in the keywords
-                if new_count == 0:
-                    words_info[left_word] = (new_count, -1)
-                    num_rem_to_cover += 1
-                else:
-                    words_info[left_word] = (new_count, cur_idx)
-            left += 1
-    return res
+    pass
 
 @enable_executor_hook
 def find_smallest_sequentially_covering_subset_wrapper(executor, paragraph,

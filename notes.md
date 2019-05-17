@@ -1,7 +1,11 @@
 # HISTORY LOG
-- *5/16*
+- *5/17*
+  - [ ATTEMPTED ] find_smallest_subarray_covering_set.py
+  - [ ] find_smallest_sequentially_covering_subset.py
+  - [ SOLVED ] bst_iterator.py
+- *5/16*  
   - [ ATTEMPTED ] 24.21 BST to Doubly-Linked List
-  - [ ATTEMPTED ]sorted_list_to_bst
+  - [ ATTEMPTED ] sorted_list_to_bst
   - [ SOLVED ] 24.22 bst_merge, do above problems, and this problem becomes very
     trivial
   - [ SOLVED ] 12.5 Find the nearest repeated entries in an array

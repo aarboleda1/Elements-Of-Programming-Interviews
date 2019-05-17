@@ -23,39 +23,52 @@ the given array that "covers" the set, i.e., contains all the strings in the set
 
 [ ATTEMPTED ] 5/14
 [ SOLVED ] 5/15
+[ ATTEMPTED ]
 Input:
-    paragraph:["b", "c", "b", "a", "d", "c", "a", "e", "a", "a", "b", "e"]
+    paragraph:["a", "b", "c", "b", "a", "d", "c", "a", "e", "a", "a"]
+                                                        r
     keywords: ["b", "c", "e"]
 Output:
-    6, because between index 3 - 9, all keywords are covered
-{b: 2, c: 5, e: 8}
-min = D[char]
-max = D[char]
+left_idx = 0
+left_id
+{
+    b: 2,
+    c: 2,
+    e: 1
+}
+
 """
 
 
 def find_smallest_subarray_covering_set(paragraph, keywords):
-    word_counts = {kw: 0 for kw in keywords}
-    left, num_rem = 0, len(keywords)
+    word_counts = {}
+    left_idx = 0
     res = Subarray(-1, -1)
-    for idx, word in enumerate(paragraph):
+    num_rem = len(keywords)
+    for right_idx, word in enumerate(paragraph):
         if word in keywords:
-            if word_counts[word] == 0:
+            if word not in word_counts:
+                word_counts[word] = 1
+            else:
+                word_counts[word] += 1
+            # we've just seen this word
+            if word_counts[word] == 1:
                 num_rem -= 1
-            word_counts[word] += 1
+        # covering
         while num_rem == 0:
-            if res == (-1, -1) or res[1] - res[0] > idx - left:
-                res = Subarray(left, idx)
+            if res == (-1, -1) or res[1] - res[0] > right_idx - left_idx:
+                res = Subarray(left_idx, right_idx)
 
             # check to see if we are still coverint all letters in set
-            if paragraph[left] in keywords:
-                word_counts[paragraph[left]] -= 1
-                if word_counts[paragraph[left]] == 0:
+            if paragraph[left_idx] in keywords:
+                word_counts[paragraph[left_idx]] -= 1
+                if word_counts[paragraph[left_idx]] == 0:
                     num_rem += 1
-            left += 1
-
+            left_idx += 1
     return res
-
+"""
+ {b: 1, c: 1, e: 1}
+"""
 
 @enable_executor_hook
 def find_smallest_subarray_covering_set_wrapper(executor, paragraph, keywords):
@@ -79,6 +92,10 @@ def find_smallest_subarray_covering_set_wrapper(executor, paragraph, keywords):
 
 
 if __name__ == '__main__':
+    p = ["a", "b", "c", "b", "a", "d", "c", "a", "e", "a", "a", "b", "e"]
+    kw = ["b", "c", "e"]
+    res = find_smallest_subarray_covering_set(p, kw)
+    print(res)
     exit(
         generic_test.generic_test_main(
             "smallest_subarray_covering_set.py",
