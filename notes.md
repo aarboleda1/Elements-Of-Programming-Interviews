@@ -1,7 +1,7 @@
 # Total Count Solved: 7
 # HISTORY LOG
 - *5/18* HashTable Bootcamp
-- [ ] Interview with KB
+- [ ] Interview with KB - https://leetcode.com/problems/design-log-storage-system/
 - [ ATTEMPTED ] find_smallest_sequentially_covering_subset.py
 - [ SOLVED ] 12.1 Test for palindromic permutations, is_string_permutable_to_palindrome.py
 - 12.2 [ REDO, SOLVED ] Is an anonymous letter constructible, is_letter_constructible.py
