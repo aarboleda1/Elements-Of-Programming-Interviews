@@ -8,7 +8,7 @@ Subarray = collections.namedtuple('Subarray', ('start', 'end'))
 
 """12.7 pg 183
 
-Write a program that takes 2 arrays of strings, and return the indices of the
+Write a program that takes 2 arrays of strings, and returns the indices of the
 starting and ending index of the shortest subarray of the first array (the
 "paragraph" array) that "sequentially covers", i.e., contains all the strings
 in the second array (the "keywords" array), in the order in which they appear in
@@ -20,24 +20,54 @@ and ending at index 1 does not fulfill the specification, even though it contain
 all the keywords, since they don't appear in the specified order. On the other
 hand, the subarray starting at index 1 and ending at index 3 does fulfill the
 specification.
+1) L == R advance L
+paragaph =
+              3
+    [a, b, c, a]
+        L
+kw = [b, a]
 
-word_counts_and_orders: Dict[word: Tuple(count, mostRecentIndex)] {
-    apple: (2, 3),
-    banana: (1, 1),
-}
-keywords = [banana, apple]
-rem_to_cover = 0
-left = 0
+paragaph =
+    [b, a, b, a, a]
+kw =
+    [b, a, x]
+
+paragaph =
+    [a, b, c, a, g, x, y]
+kw =
+    [b, a, x]
+     0
+num_words_rem
+
 
 # HISTORY LOG
-[ ATTEMPTED ] - 5/17
+[  ] - 5/17
 [ ATTEMPTED ] - 5/15
 """
 
 
 
 def find_smallest_sequentially_covering_subset(paragraph, keywords):
-    pass
+    left, right = 0, len(paragraph)
+    num_rem = len(keywords)
+    res = Subarray(-1, -1)
+    hash_table = {kw: 0 for kw in keywords}
+    kw_idx = 0
+    for right, word in enumerate(paragraph):
+        if word in keywords and word == keywords[kw_idx]:
+            kw_idx += 1
+            num_rem -= 1
+            hash_table[word] += 1
+        if res == (-1, -1) or res[1] - res[0] > right - left:
+            res = (right, left)
+        kw_idx
+        while
+
+
+
+
+
+
 
 @enable_executor_hook
 def find_smallest_sequentially_covering_subset_wrapper(executor, paragraph,

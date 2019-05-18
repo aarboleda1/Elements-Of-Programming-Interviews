@@ -10,17 +10,12 @@ a closest pair of equal entries. For example, if s = ["All", "work", "no",
 the second and third occurences of "no" is the closest pair
 
 HISTORY LOG
+- [ SOLVED ] 5/18
 - [ SOLVED ] 5/16
 """
 
 def find_nearest_repetition(paragraph):
-    res, dic = float("inf"), {}
-    for i, word in enumerate(paragraph):
-        if word in dic:
-            res = min(i - dic[word], res)
-        dic[word] = i
-    return res if res != float("inf") else -1
-
+    pass
 
 if __name__ == '__main__':
     A = ["foo", "bar", "widget", "foo", "widget", "widget", "adnan"]

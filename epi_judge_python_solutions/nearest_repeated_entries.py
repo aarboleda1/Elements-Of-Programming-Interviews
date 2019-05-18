@@ -11,6 +11,7 @@ the second and third occurences of "no" is the closest pair
 
 HISTORY LOG
 - [ SOLVED ] 5/16
+- [ SOLVED ] 5/18
 """
 def find_nearest_repetition(paragraph):
 

@@ -1,7 +1,16 @@
+# Total Count Solved: 7
 # HISTORY LOG
+- *5/18* HashTable Bootcamp
+- [ ] Interview with KB
+- [ ATTEMPTED ] find_smallest_sequentially_covering_subset.py
+- [ SOLVED ] 12.1 Test for palindromic permutations, is_string_permutable_to_palindrome.py
+- 12.2 [ REDO, SOLVED ] Is an anonymous letter constructible, is_letter_constructible.py
+  - Optimize for solving with the letter_text rather than magazine_text
+- 12.3 [ ATTEMPTED ] Implement an ISBN cache
+- 12.5 [ SOLVED ] Find the nearest repeated entries in an array
 - *5/17*
   - [ ATTEMPTED ] find_smallest_subarray_covering_set.py
-  - [ ] find_smallest_sequentially_covering_subset.py
+  - [ ATTEMPTED ] find_smallest_sequentially_covering_subset.py
   - [ SOLVED ] bst_iterator.py
 - *5/16*  
   - [ ATTEMPTED ] 24.21 BST to Doubly-Linked List
@@ -45,8 +54,14 @@ REDO AND WHITEBOARD, answer is still not clear
 - [ EASY ] 13.1 intersect_sorted_arrays: 4/20
 
 **Hash Tables** 5/14
+- 12.1 Test for palindromic permutations
+  - [ ] 5/18  
+- 12.2 Is an anonymous letter constructible
+  - [ ] 5/18
+- 12.3 Implement an ISBN cache
+  - [ ] 5/18
 - 12.6 find_smallest_subarray_covering_set.py
-  - [ ATTEMPTED ] - 5/14
+  - [ ATTEMPTED ]  5/14
   - [ SOLVED ] - 5/15
 - [ ] 12.4,
 - [ ] 13.8
@@ -102,6 +117,27 @@ to always carefully walk thru example when working with arrays
 - What is the difference between copy.deepcopy(A) and copy.copy(A)? Read this article to see the differences.
 https://realpython.com/copying-python-objects/
 
+# Hash Tables
+- **Hash Table Libraries**
+  -  *Set*: Stores keys only. Unlike other libraries such as Collection and Counter
+  library which stores key and the value. Main methods are s.add(), s.remove(),
+  s.discard()
+  - *Counter*: Used for counting the number of occurrences of keys, within
+  a number of set-like operations
+  `````
+  c = collections.Counter(a=3, b=2)
+  b = collections.Counter(a=1, b=0)
+
+  c + b = Counter({'a': 4, 'b': 2})
+  c - d = Counter({'a': 2, 'b': 2})
+  # intersection: min(c[x], d[x]), Counter({'a': 2, 'b': 0})
+  c & d
+  # union: max(c[x], d[x]), Counter({'a': 3, 'b': 2})
+  c | d
+  `````  
+  - *DefaultDict*: Returns the default value of the type that was specified
+  when the collection was instantiated, e.g., if `d = defaultdict(list)`, then
+  `if k not in d` then d[k] is []
 
 # Graphs
 - It's natural to use a graph when the problem involves spatially connected
