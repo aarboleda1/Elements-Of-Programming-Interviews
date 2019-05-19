@@ -1,8 +1,10 @@
 # Total Count Solved: 7
 # HISTORY LOG
-- *5/18* HashTable Bootcamp
-- [ ] Interview with KB - https://leetcode.com/problems/design-log-storage-system/
+
+- *5/18* HashTable Bootcamp/KB/BST_TO_DLL
+- [ ATTEMPTED ] Interview with KB - https://leetcode.com/problems/design-log-storage-system/
 - [ ATTEMPTED ] find_smallest_sequentially_covering_subset.py
+- [ SOLVED ] - 24.21 bst_to_doubly_linked_list
 - [ SOLVED ] 12.1 Test for palindromic permutations, is_string_permutable_to_palindrome.py
 - 12.2 [ REDO, SOLVED ] Is an anonymous letter constructible, is_letter_constructible.py
   - Optimize for solving with the letter_text rather than magazine_text

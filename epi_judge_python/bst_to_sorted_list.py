@@ -8,40 +8,32 @@ from test_framework.test_utils import enable_executor_hook
 24.21
 Design an algorithm that takes a BST as input and returns a sorted doubly
 linked-list on the same elements
-[ ATTEMPTED ] - 5/14
+[ SOLVED ] - 5/18
 [ ATTEMPTED ] - 5/16
-
-Time Complexity: We do a constant amount of work per tree node, so the time
-complexity is O(N).
-
-Space Complexity: O(h) where h is the height of the BST. The worst case for
-height is where the height is N number of nodes
+[ ATTEMPTED ] - 5/14
 """
-
-
 def bst_to_doubly_linked_list(tree):
     HeadAndTail = namedtuple('HeadAndTail', ('head', 'tail'))
-
-    def recur(root):
+    def bst_to_dll_helper(root):
         if not root:
             return HeadAndTail(None, None)
+        left = bst_to_dll_helper(root.left)
+        right = bst_to_dll_helper(root.right)
 
-        # Recursively build left and right lists
-        left = recur(root.left)
-        right = recur(root.right)
-
-        # Root to left and right lists
-        root.left = left.tail
         root.right = right.head
+        root.left = left.tail
 
-        # Left and right lists to root
         if left.tail:
             left.tail.right = root
         if right.head:
             right.head.left = root
-
         return HeadAndTail(left.head or root, right.tail or root)
-    return recur(tree).head
+    node = bst_to_dll_helper(tree)
+    return node.head
+
+
+
+
 
 @enable_executor_hook
 def bst_to_doubly_linked_list_wrapper(executor, tree):
