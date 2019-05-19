@@ -7,12 +7,21 @@ from test_framework.test_utils import enable_executor_hook
 
 RED, WHITE, BLUE = range(3)
 
-"""
-5/2/19
+"""5.1 The Dutch National Flag Problem
+
+Write a program that takes an array A and index i into A, and
+rearranges the elements such that all elements less han A[i] appear first,
+followed by elements equal to the pivot followed by elements greater than the
+pivot.
+
+[ ATTEMPTED ] 5/2/19
+[ ATTEMPTED ] 5/19
 """
 
 def dutch_flag_partition(pivot_index, A):
-    pass
+    # TODO
+    return A
+
 
 @enable_executor_hook
 def dutch_flag_partition_wrapper(executor, A, pivot_idx):

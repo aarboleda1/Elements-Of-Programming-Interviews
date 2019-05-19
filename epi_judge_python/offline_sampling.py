@@ -1,15 +1,34 @@
 import functools
-
+import random
 from test_framework import generic_test
 from test_framework.random_sequence_checker import (
     binomial_coefficient, check_sequence_is_uniformly_random,
     compute_combination_idx, run_func_with_retries)
 from test_framework.test_utils import enable_executor_hook
 
+"""5.12 Sample Offline Data
+
+This problem is motivated by the need for a company to select a random subset of
+its customers to roll out a new feature to. For example, a social networking
+company may want to see the effect of a new UI on page visit duration without
+taking the chance of alienating all its users if the rollout is unsuccessful
+
+Implement an algorithm that takes as input of distinct elements(A) and a size(k),
+and returns a subset of the given size of the array elements. All subsets should
+be equally likely. Return the result in input array itself
+
+A = [1,2,3,4,5]
+k = 2
+n = len(A) or 5
+
+
+[ ATTEMPTED ] - 5/19
+"""
 
 def random_sampling(k, A):
-    # TODO - you fill in here.
-    return
+    # TODO
+    return A
+
 
 
 @enable_executor_hook

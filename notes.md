@@ -1,7 +1,13 @@
 # Total Count Solved: 7
-# HISTORY LOG
 
-- *5/18* HashTable Bootcamp/KB/BST_TO_DLL
+# HISTORY LOG
+*5/19*
+- [ ATTEMPTED ] 5.1 The Dutch National Flag Problem
+- [ ] 5.12 Sample offline data/offline_sampling.py
+- [ ] 5.18 Compute the spiral ordering of a 2D array
+
+
+*5/18* HashTable Bootcamp/KB/BST_TO_DLL
 - [ ATTEMPTED ] Interview with KB - https://leetcode.com/problems/design-log-storage-system/
 - [ ATTEMPTED ] find_smallest_sequentially_covering_subset.py
 - [ SOLVED ] - 24.21 bst_to_doubly_linked_list
@@ -10,20 +16,22 @@
   - Optimize for solving with the letter_text rather than magazine_text
 - 12.3 [ ATTEMPTED ] Implement an ISBN cache
 - 12.5 [ SOLVED ] Find the nearest repeated entries in an array
-- *5/17*
+
+*5/17*
   - [ ATTEMPTED ] find_smallest_subarray_covering_set.py
   - [ ATTEMPTED ] find_smallest_sequentially_covering_subset.py
   - [ SOLVED ] bst_iterator.py
-- *5/16*  
+
+*5/16*  
   - [ ATTEMPTED ] 24.21 BST to Doubly-Linked List
   - [ ATTEMPTED ] sorted_list_to_bst
   - [ SOLVED ] 24.22 bst_merge, do above problems, and this problem becomes very
     trivial
   - [ SOLVED ] 12.5 Find the nearest repeated entries in an array
 
-- *5/15*:
+*5/15*:
   - [ SOLVED ] 12.6 find_smallest_subarray_covering_set.py
-- *5/14*:
+*5/14*:
 - [ ATTEMPTED ] 24.21 BST to Doubly-Linked List:
 REDO AND WHITEBOARD, answer is still not clear
 - [ ATTEMPTED ] 24.22 bst_merge
@@ -33,8 +41,8 @@ REDO AND WHITEBOARD, answer is still not clear
 - [ SOLVED ] 14.1 is_tree_a_bst.py "Given a Binary Tree determine if it is a BST"
 - [ SOLVED ] bst_from_preorder_sequence "Generate BST from preorder_sequence"
 - [ SOLVED ] sorted list to BST "Given a sorted list, generate a BST"
-- *5/13*: power_set
-- *5/11* Design Twitter
+*5/13*: power_set
+*5/11* Design Twitter
 
 # TODO
 - [ ] 4.3, 4.11
@@ -43,6 +51,16 @@ REDO AND WHITEBOARD, answer is still not clear
 - [ ] 7.10
 - [ ] 8.3, 8.8
 - [ ] 9.11
+
+**Arrays** 5/19
+- [ SOLVED ] 5.1 The Dutch National Flag Problem
+  - Should probably do this one again though as I wasn't as
+  convincing in the walk through
+- [ SOLVED ] 5.6 Buy and Sell a stock once
+- [ ] 5.12 Sample Offline Data
+- [ ] 5.18 Compute the spiral ordering of a 2D array
+- [ ] 5.5
+- [ ] 5.9
 
 **Heaps** 4/6
 - [ EASY ] 10.4 Compute the k closest stars:
@@ -55,13 +73,13 @@ REDO AND WHITEBOARD, answer is still not clear
 **Sorting**
 - [ EASY ] 13.1 intersect_sorted_arrays: 4/20
 
-**Hash Tables** 5/14
+**Hash Tables** 5/14, 5/18
 - 12.1 Test for palindromic permutations
-  - [ ] 5/18  
+  - [ SOLVED ] 5/18  
 - 12.2 Is an anonymous letter constructible
-  - [ ] 5/18
+  - [ SOLVED ] 5/18
 - 12.3 Implement an ISBN cache
-  - [ ] 5/18
+  - [ SOLVED ] 5/18
 - 12.6 find_smallest_subarray_covering_set.py
   - [ ATTEMPTED ]  5/14
   - [ SOLVED ] - 5/15
@@ -70,10 +88,10 @@ REDO AND WHITEBOARD, answer is still not clear
 - [ ] 13.11
 
 **BST Problems** 4/6, 5/14
-- [ ATTEMPTED ] 24.21 BST to Doubly-Linked List *5/1* *4/1*,
 - [ ATTEMPTED ] 14.4 Least Common Ancestor *4/1*
 - [ ATTEMPTED ] 24.21, Sorted List to BST very similar to 14.5, *4/1*
 - [ ATTEMPTED ] Inorder Traversal of a BST without recursion *4/1*
+- [ SOLVED ] 24.21 BST to Doubly-Linked List *5/18*, *5/1*, *4/1*,
 - [ SOLVED ] Sorted list to BST *5/14*
 - [ SOLVED ] 14.5, BST from pre-order sequence. very similar to 24.21 *5/14*
 - [ SOLVED ] 24.22 Merge BST  *5/14*
