@@ -2,10 +2,11 @@
 
 # HISTORY LOG
 *5/19*
-- [ ATTEMPTED ] 5.1 The Dutch National Flag Problem
-- [ ] 5.12 Sample offline data/offline_sampling.py
-- [ ] 5.18 Compute the spiral ordering of a 2D array
-
+- [ ATTEMPTED ] 5.12 Sample offline data/offline_sampling.py
+- [ ATTEMPTED ] 5.18 Compute the spiral ordering of a 2D array/matrix_in_spiral_order.py
+- [ ATTEMPTED ] 5.17 The Sudoku Checker Problem
+- [ SOLVED ] 5.1 The Dutch National Flag Problem
+  - do again to confirm logic
 
 *5/18* HashTable Bootcamp/KB/BST_TO_DLL
 - [ ATTEMPTED ] Interview with KB - https://leetcode.com/problems/design-log-storage-system/
@@ -53,12 +54,13 @@ REDO AND WHITEBOARD, answer is still not clear
 - [ ] 9.11
 
 **Arrays** 5/19
+- [ ATTEMPTED ] 5.12 Sample Offline Data
+- [ ATTEMPTED ] 5.18 Compute the spiral ordering of a 2D array
 - [ SOLVED ] 5.1 The Dutch National Flag Problem
   - Should probably do this one again though as I wasn't as
   convincing in the walk through
 - [ SOLVED ] 5.6 Buy and Sell a stock once
-- [ ] 5.12 Sample Offline Data
-- [ ] 5.18 Compute the spiral ordering of a 2D array
+- [ ] 5.17 The Sudoku Checker Problem
 - [ ] 5.5
 - [ ] 5.9
 
