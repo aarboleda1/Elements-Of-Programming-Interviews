@@ -1,7 +1,13 @@
 # Total Count Solved: 7
 
 # HISTORY LOG
+*5/20*
+- [ ATTEMPTED ] find_smallest_sequentially_covering_subset
+- []
+- []
+- []
 *5/19*
+- [ ATTEMPTED ] Getting different number https://www.pramp.com/challenge/aK6V5GVZ9MSPqvG1vwQp
 - [ ATTEMPTED ] 5.12 Sample offline data/offline_sampling.py
 - [ ATTEMPTED ] 5.18 Compute the spiral ordering of a 2D array/matrix_in_spiral_order.py
 - [ ATTEMPTED ] 5.17 The Sudoku Checker Problem
