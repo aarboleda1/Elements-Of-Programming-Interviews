@@ -1,11 +1,19 @@
 # Total Count Solved: 7
 
 # HISTORY LOG
+*5/21*
+- [ SOLVED ] - 5.18 Compute the spiral ordering of a 2D array
+- [ SOLVED ] Design a Log System (Leetcode) https://bit.ly/2HsGsRH
+- [ SOLVED ] 5.12 Sample offline data/offline_sampling.py
+
 *5/20*
 - [ ATTEMPTED ] find_smallest_sequentially_covering_subset
-- []
-- []
-- []
+- [ ATTEMPTED ] is_graph_bipartite: https://leetcode.com/problems/is-graph-bipartite/
+- [ ATTEMPTED ] https://leetcode.com/problems/repeated-substring-pattern/
+- [ SOLVED ] https://leetcode.com/problems/single-number-iii/
+- [ SOLVED ] https://leetcode.com/problems/largest-number-at-least-twice-of-others/
+- [ SOLVED ] https://leetcode.com/problems/most-common-word/
+
 *5/19*
 - [ ATTEMPTED ] Getting different number https://www.pramp.com/challenge/aK6V5GVZ9MSPqvG1vwQp
 - [ ATTEMPTED ] 5.12 Sample offline data/offline_sampling.py
@@ -59,9 +67,13 @@ REDO AND WHITEBOARD, answer is still not clear
 - [ ] 8.3, 8.8
 - [ ] 9.11
 
-**Arrays** 5/19
-- [ ATTEMPTED ] 5.12 Sample Offline Data
-- [ ATTEMPTED ] 5.18 Compute the spiral ordering of a 2D array
+**Arrays** 5/19,
+5.12 Sample Offline Data
+  - [ SOLVED ] 5/21
+  - [ ATTEMPTED ] 5/19
+5.18 Compute the spiral ordering of a 2D array
+  - [ SOLVED ] 5/21
+  - [ ATTEMPTED ] 5/19
 - [ SOLVED ] 5.1 The Dutch National Flag Problem
   - Should probably do this one again though as I wasn't as
   convincing in the walk through

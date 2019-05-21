@@ -21,7 +21,7 @@ A = [1,2,3,4,5]
 k = 2
 n = len(A) or 5
 
-
+[ SOLVED ] 5/21
 [ ATTEMPTED ] - 5/19
 """
 
