@@ -5,6 +5,7 @@
 - [ SOLVED ] - 5.18 Compute the spiral ordering of a 2D array
 - [ SOLVED ] Design a Log System (Leetcode) https://bit.ly/2HsGsRH
 - [ SOLVED ] 5.12 Sample offline data/offline_sampling.py
+- [ SOLVED ] 5.17 The Sudoku Checker Problem
 
 *5/20*
 - [ ATTEMPTED ] find_smallest_sequentially_covering_subset
