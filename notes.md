@@ -1,7 +1,15 @@
 # Total Count Solved: 7
 
 # HISTORY LOG
+*5/23* **String Bootcamp**
+- [ ATTEMPTED ] 6.1 Interconvert strings and integers
+- [ ] 6.2  
+*5/22*
+Mostly System Design practice all day
+- [] TODO find_smallest_sequentially_covering_subset
 *5/21*
+- [ SOLVED ] powerset
+- [ ATTEMPTED ] Design Twitter, merge k sorted lists descending
 - [ SOLVED ] - 5.18 Compute the spiral ordering of a 2D array
 - [ SOLVED ] Design a Log System (Leetcode) https://bit.ly/2HsGsRH
 - [ SOLVED ] 5.12 Sample offline data/offline_sampling.py
@@ -146,6 +154,15 @@ Completed - Review on a weekly basis
 
 
 ## Tool Tips for Data Structures
+# Strings
+Common methods for strings: `s.startswith(prefix), s.endswith(suffix), s[0:2]`
+Strings are **immutable** and need to allocate a new string when concatenating
+immutable strings. For python it's usually a good idea to turn an immutable
+string to a `list(string)`
+
+Updating a mutable string from the front is slow, see if it's possible to write
+values from the back
+
 # Arrays
 **Tips**
 - Filling an array from the front is slow, see if it's possible to *write

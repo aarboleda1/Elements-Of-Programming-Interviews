@@ -23,7 +23,7 @@ specification.
 
 
 # HISTORY LOG
-[ ] - 5/19
+[ ATTEMPTED ] - 5/19
 [ ATTEMPTED ] - 5/17
 [ ATTEMPTED ] - 5/15
 """
@@ -31,7 +31,6 @@ specification.
 
 
 def find_smallest_sequentially_covering_subset(paragraph, keywords):
-
     pass
 
 

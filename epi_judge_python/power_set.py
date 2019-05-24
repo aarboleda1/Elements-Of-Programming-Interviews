@@ -7,14 +7,22 @@ Write a function that takes as input a set and returns its powerset
 
 input: [0, 1, 2]
 output: [[], [0], [1], [2], [0,1], [0,2], [1,2], [0,1,2]]
-
-- 5/7 [ATTEMPTED]
+- 5/21 [ SOLVED ]
 - 5/13 [SOLVED] to review notes!
+- 5/7 [ATTEMPTED]
 """
 
 
 def generate_power_set(nums):
-    pass
+    powerset = []
+    def recur(subset, i):
+        if i == len(nums):
+            powerset.append(subset)
+        else:
+            recur(subset, i + 1)
+            recur(subset + [nums[i]], i + 1)
+    recur([], 0)
+    return powerset
 
 if __name__ == "__main__":
     exit(

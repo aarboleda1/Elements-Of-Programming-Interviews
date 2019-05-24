@@ -32,9 +32,21 @@ User:
 Twitter:
     id_to_user_map
 
+getNewsFeed(): The most important part of the whole algorithm. The intution
+behind this is that you'll need the 10 most recent tweets. So the ordering
+comes from the timestamp. Since all tweets can come from N number of lists
+based on the number of followees, it poses the problem find 10 largest from
+K sorted lists. the lists are sorted because of the way we inserted the timestamps.
 
+The algorithm goes as so:
+Place each of the last elements/most recently updated timestamp into the heap,
+along with the user_id, tweet_id, and index. Everytime we pop from
+the heap, it'll give us the most recent tweet, add that id to newsFeed. If
+the idx > 0, then it means that there are most tweets to from this user, place
+back in the heap to be processed later. Proceed until the counter == 10
 
 Attempt Log
+- [ATTEMPTED] 5/21
 - 5/4
 """
 class Tweet:
@@ -100,7 +112,10 @@ class Twitter:
 
     def getNewsFeed(self, userId: int) -> List[int]:
         """
-        Retrieve the 10 most recent tweet ids in the user's news feed. Each item in the news feed must be posted by users who the user followed or by the user herself. Tweets must be ordered from most recent to least recent.
+        Retrieve the 10 most recent tweet ids in the user's news feed.
+        Each item in the news feed must be posted by users who the user
+        followed or by the user herself. Tweets must be ordered from most
+        recent to least recent.
         """
         k, newsFeed = 10, []
         user = self.userGraph.getUser(userId)
@@ -160,7 +175,10 @@ class Twitter_V2:
 
     def getNewsFeed(self, userId):
         """
-        Retrieve the 10 most recent tweet ids in the user's news feed. Each item in the news feed must be posted by users who the user followed or by the user herself. Tweets must be ordered from most recent to least recent.
+        Retrieve the 10 most recent tweet ids in the user's news feed.
+        Each item in the news feed must be posted by users who the user
+        followed or by the user herself. Tweets must be ordered from most
+        recent to least recent.
         :type userId: int
         :rtype: List[int]
         """
