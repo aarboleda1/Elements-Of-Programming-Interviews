@@ -1,9 +1,17 @@
 # Total Count Solved: 7
-
+https://leetcode.com/discuss/interview-experience/296777/google-seti-uni-grad-onsite-interviews
 # HISTORY LOG
+*5/25* **String bootcamp**
+- [ ATTEMPTED ] - 6.4 Replace and Remove/replace_and_remove.py  Walk throught h
+- [ SOLVED ] - 6.5 Test palindromicity
+
+*5/24*
+- [ATTEMPTED] https://leetcode.com/problems/different-ways-to-add-parentheses/description/
+  - divide and conquer google question
 *5/23* **String Bootcamp**
-- [ ATTEMPTED ] 6.1 Interconvert strings and integers
-- [ ] 6.2  
+- [ ATTEMPTED ] 6.1 Interconvert strings and integers/string_integer_interconversion.py
+- [ ATTEMPTED ] 6.2 Base conversion/convert_base.py
+
 *5/22*
 Mostly System Design practice all day
 - [] TODO find_smallest_sequentially_covering_subset
