@@ -3,11 +3,23 @@ import functools
 from test_framework import generic_test
 from test_framework.test_utils import enable_executor_hook
 
+"""6.6 Reverse all words in a sentence
 
-# Assume s is a string encoded as bytearray.
+Given a string containing a set of words separated by whitespace, we would
+like to transform it to a string in which the words appear in the reverse order.
+For example, "Alice likes Bob" transforms to "Bob likes Alice". We do not keep
+the original string
+
+Implement a function for reversing words in a string s
+
+Hint: It's difficult to solve this with one pass
+
+[ ATTEMPTED ] - 5/25
+"""
+# Assume s is a string encoded as c.
 def reverse_words(s):
-    # TODO - you fill in here.
-    return
+    pass
+
 
 
 @enable_executor_hook
@@ -21,6 +33,7 @@ def reverse_words_wrapper(executor, s):
 
 
 if __name__ == '__main__':
+    reverse_words(bytearray(b'alice likes bob'))
     exit(
         generic_test.generic_test_main("reverse_words.py", 'reverse_words.tsv',
                                        reverse_words_wrapper))

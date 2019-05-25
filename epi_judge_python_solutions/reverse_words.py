@@ -3,7 +3,30 @@ import functools
 from test_framework import generic_test
 from test_framework.test_utils import enable_executor_hook
 
+"""6.6 Reverse all words in a sentence
 
+Given a string containing a set of words separated by whitespace, we would
+like to transform it to a string in which the words appear in the reverse order.
+For example, "Alice likes Bob" transforms to "Bob likes Alice". We do not keep
+the original string
+
+Implement a function for reversing words in a string s
+
+Hint: It's difficult to solve this with one pass
+
+Basic Idea:
+
+Do it in two passes, reverse the entire string, and then perform a reverse
+on each word individually
+
+Since we spend O(1) per character, time complexity is O(n), where n is the
+length of s. The computation in place so space is also O(1)
+
+Some library functions to take note of
+    - s.reverse() to reverse a string in place
+    - s.find('', start_index), which finds the first instance of the character
+        beginning on the start index
+"""
 # Assume s is a string encoded as bytearray.
 def reverse_words(s):
 
