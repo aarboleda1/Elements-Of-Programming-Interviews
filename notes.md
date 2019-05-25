@@ -3,7 +3,7 @@ https://leetcode.com/discuss/interview-experience/296777/google-seti-uni-grad-on
 # HISTORY LOG
 *5/25* **String bootcamp**
 - [ ATTEMPTED ] - 6.4 Replace and Remove/replace_and_remove.py  Walk throught h
-- [ SOLVED ] - 6.5 Test palindromicity
+- [ ATTEMPTED ] - 6.5 Test palindromicity
 
 *5/24*
 - [ATTEMPTED] https://leetcode.com/problems/different-ways-to-add-parentheses/description/
@@ -76,13 +76,11 @@ REDO AND WHITEBOARD, answer is still not clear
 *5/13*: power_set
 *5/11* Design Twitter
 
-# TODO
-- [ ] 4.3, 4.11
-- [ ] 5.5, 5,9
-- [ ] 6.7, 6.8
-- [ ] 7.10
-- [ ] 8.3, 8.8
-- [ ] 9.11
+| Problem |  Attempt Log | Python  |
+| ------ | ------ | ------ |
+| Bootcamp: String | 5/25 | ------- |
+| 6.4 Replace and Remove | - *ATTEMPED*, 5/25 | replace_and_remove.py |
+| 6.5 Test palindromicity | - *ATTEMPTED*, 5/25 | is_string_palindromic.py |
 
 **Arrays** 5/19,
 5.12 Sample Offline Data
