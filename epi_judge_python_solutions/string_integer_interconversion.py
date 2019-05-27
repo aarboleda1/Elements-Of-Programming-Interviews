@@ -15,7 +15,14 @@ Implement an integer to string conversion function, and a string to integer
 conversion function. For example, if the input to the first function is the
 integer 314, it should return the string "314" and if the input to the
 second function is the string "314" it should return the integer 314
-[ ] 5/23
+
+Basic algorithm:
+    char_str = '2'
+    char_int = string.digits.index(c)
+    char_int = 2
+
+[ ATTEMPTED ] 5/23
+[ ATTEMPTED ] 5/26
 """
 
 def int_to_string(x):

@@ -1,6 +1,14 @@
 # Total Count Solved: 7
 https://leetcode.com/discuss/interview-experience/296777/google-seti-uni-grad-onsite-interviews
 # HISTORY LOG
+*5/27*
+- [ ATTEMPTED ] 6.1 Interconvert strings and integers/string_integer_interconversion.py
+  - string.index(char) will give you any string value to it's integer conversion
+- Pramp Interview:
+  Question I asked: Nearly sorted array pramp_sort_k_messed_array.py
+
+*5/26*
+Rest Day
 *5/25* **String bootcamp**
 - [ ATTEMPTED ] - 6.4 Replace and Remove/replace_and_remove.py  Walk throught h
 - [ ATTEMPTED ] - 6.5 Test palindromicity

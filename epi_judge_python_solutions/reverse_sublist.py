@@ -12,7 +12,8 @@ def reverse_sublist(L, start, finish):
     sublist_iter = sublist_head.next
     for _ in range(finish - start):
         temp = sublist_iter.next
-        sublist_iter.next, temp.next, sublist_head.next = (temp.next,
+        sublist_iter.next,
+        temp.next, sublist_head.next = (temp.next,
                                                            sublist_head.next,
                                                            temp)
     return dummy_head.next

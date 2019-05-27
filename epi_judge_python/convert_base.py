@@ -13,7 +13,7 @@ b1, and another integer b2. The string represents an integer in b1. The output
 should be the string representing the integer in b2. Assume 2 <= b1 and
 b2 <= 16. Use "A" to represent 10, "B" for 11, ... and "F for 15, for"
 
-[ ] ATTEMPTED
+[ ATTEMPTED ]  - 5/25
 """
 def convert_base(num_as_string, b1, b2):
     return ''
