@@ -63,5 +63,4 @@ def sort_k_messed_array(arr, k):
         write_idx += 1
     return arr
 res = sort_k_messed_array([3, 1, 8, 7, 0], 2)
-print(res)
 assert res == [1,3,0,7,8]

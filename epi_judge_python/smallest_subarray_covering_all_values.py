@@ -28,10 +28,37 @@ specification.
 [ ATTEMPTED ] - 5/15
 """
 
-
-
 def find_smallest_sequentially_covering_subset(paragraph, keywords):
-    pass
+    res = Subarray(-1, -1)
+    found_words = {keyword: 0 for keyword in keywords}
+    keywords_to_find = len(keywords)
+    left = 0
+    for right in range(len(paragraph)):
+        if paragraph[right] in keywords:
+            found_words += 1
+            keywords_to_find -= 1
+
+        # found all, find a shorter!
+        if keywords_to_find == 0:
+            if res == (-1, -1) or res[1] - res[0] > right - left:
+                res = Subarray(left, right)
+            if paragraph[left] not keywords:
+                left += 1
+            else:
+                found_words[paragraph[left]] -= 1
+
+            if found_words[paragraph[left]] == 0:
+                keywords_to_find += 1
+    return res
+
+
+
+
+
+
+
+
+    return res
 
 
 

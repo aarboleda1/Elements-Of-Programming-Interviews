@@ -34,6 +34,7 @@ Final string length is write_idx + a_count
 Then replace all the a's. Do this by iterating backwards and writing the d's
 
 Remove
+[ ATTEMPTED ] - 5/27
 [ ATTEMPTED ] - 5/25
 """
 
@@ -43,6 +44,7 @@ def replace_and_remove(size, s):
     write_idx, a_count = 0, 0
     for i in range(size):
         if s[i] != 'b':
+            # Remove the b's and write the cur char
             s[write_idx] = s[i]
             write_idx += 1
         if s[i] == 'a':
@@ -51,6 +53,9 @@ def replace_and_remove(size, s):
     # Backward iteration: replace 'a's with 'dd's starting from the end.
     cur_idx = write_idx - 1
     write_idx += a_count - 1
+
+    # The final size is the array with all b's removed plus
+    # the array with number of a's
     final_size = write_idx + 1
     while cur_idx >= 0:
         if s[cur_idx] == 'a':

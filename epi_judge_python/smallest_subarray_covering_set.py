@@ -26,19 +26,10 @@ the given array that "covers" the set, i.e., contains all the strings in the set
 [ ATTEMPTED ]
 Input:
     paragraph:["a", "b", "c", "b", "a", "d", "c", "a", "e", "a", "a"]
-                                                        r
     keywords: ["b", "c", "e"]
-Output:
-left_idx = 0
-left_id
-{
-    b: 2,
-    c: 2,
-    e: 1
-}
+
 
 """
-
 
 def find_smallest_subarray_covering_set(paragraph, keywords):
     word_counts = {}
@@ -66,6 +57,7 @@ def find_smallest_subarray_covering_set(paragraph, keywords):
                     num_rem += 1
             left_idx += 1
     return res
+
 """
  {b: 1, c: 1, e: 1}
 """

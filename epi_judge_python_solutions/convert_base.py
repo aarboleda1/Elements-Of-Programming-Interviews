@@ -3,15 +3,9 @@ import string
 
 from test_framework import generic_test
 
-def construct_from_base(num_as_int, base):
-    if num_as_int == 0:
-        return ''
-    else:
-        print(num_as_int, "num_as_int plus ", string.hexdigits[num_as_int % base].upper())
-        return (
-            construct_from_base(num_as_int // base, base) +
-            string.hexdigits[num_as_int % base].upper()
-        )
+"""
+https://cs.stackexchange.com/questions/10318/the-math-behind-converting-from-any-base-to-any-base-without-going-through-base
+"""
 def convert_base(num_as_string, b1, b2):
     def construct_from_base(num_as_int, base):
         if num_as_int == 0:
@@ -27,6 +21,7 @@ def convert_base(num_as_string, b1, b2):
 
     def reducer(acc, c):
         return acc * b1 + string.hexdigits.index(c.lower())
+
     num_as_int = functools.reduce(
         reducer,
         num_as_string[is_negative:],

@@ -10,20 +10,11 @@ Hint: Find a simple characterization of strings that can be permuted to form a
 palindrome
 
 - [ SOLVED ] 5/18 Time complexity: O(N), Space is O(N)
+- [SOLVED] 5/27
 """
 def can_form_palindrome(s):
-    hash_table = {}
-    has_odd_char = False
-    for char in s:
-        val = hash_table.get(char, 0)
-        hash_table[char] = val + 1
-    for k, count in hash_table.items():
-        is_odd = count % 2 == 1
-        if has_odd_char and is_odd:
-            return False
-        elif is_odd:
-            has_odd_char = True
-    return True
+    pass
+
 
 
 

@@ -36,6 +36,11 @@ to their most recent occurrences in the paragraph array as we iterate through
 it, and a hash table mapping each keyword to the length of the shortest
 subarray ending at the most recent occurrence of that keyword.
 
+Basic algorithm: Expand, contract, expand, contract
+Move the right pointer forward. Once you have covered all words in keywords,
+contract the left pointer forward. Use a hash table to count number of
+occurrences of each keyword in the current subset
+
 [ ATTEMPTED ] -
 """
 

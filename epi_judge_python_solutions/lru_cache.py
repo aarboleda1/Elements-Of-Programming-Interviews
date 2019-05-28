@@ -25,7 +25,7 @@ true if the ISBN was present; otherwise, return false
 
 SOLUTION: My intuition was correct in implementing an LRU, but it was overkill.
 The recommended solution uses an OrderedDict. The reason is that the OrderedDict
-rembers insertion order. So upon insertion, you pop from the dict, and then
+remembers insertion order. So upon insertion, you pop from the dict, and then
 re-add it when keeps it in sorted order. It handles the ordering for you
 
 [ ATTEMPTED ] 5/18

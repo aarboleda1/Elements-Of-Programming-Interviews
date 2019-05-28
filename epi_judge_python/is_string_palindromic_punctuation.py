@@ -10,14 +10,13 @@ was I, ere I saw Elba" are palindromic, but "Ray a Ray" is not.
 
 Implement a function which takes as input a string s and returns true if s is a
 palindromic string
-
+[SOLVED] 5/27
 [ATTEMPTED] 5/25
 """
 
 
 def is_palindrome(s):
-
-    return True
+    pass
 
 
 if __name__ == "__main__":

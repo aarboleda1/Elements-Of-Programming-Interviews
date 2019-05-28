@@ -1,5 +1,6 @@
 from test_framework import generic_test
 from collections import Counter
+
 """12.1 Is an anonymous letter constructible?
 
 Write a program which takes text for an anonymous letter and text for a
@@ -17,6 +18,7 @@ letter_text = "aabc"
 magazine_text = "abc"
 
 [ SOLVED ] - 5/18 SC: O(N) where N is the len of magazine_text and same for TC
+[ SOLVED ] - 5/27
 """
 def is_letter_constructible_from_magazine(letter_text, magazine_text):
     pass

@@ -16,10 +16,26 @@ pivot.
 
 [ ATTEMPTED ] 5/2/19
 [ ATTEMPTED ] 5/19
+
+pivot_idx = 1
+write_idx = 0
+[1,3,0,9,10,3]
+first loop -> [1,0,3,3,10,9]
 """
 
 def dutch_flag_partition(pivot_index, A):
-    # TODO
+    pivot_val = A[pivot_index]
+    write_idx = 0
+    for i in range(len(A)):
+        if A[i] < pivot_val:
+            A[i], A[write_idx] = A[write_idx], A[i]
+            write_idx += 1
+
+    write_idx = len(A) - 1
+    for i in range(len(A) - 1, -1, -1):
+        if A[i] >= pivot_val:
+            A[i], A[write_idx] = A[write_idx], A[i]
+            write_idx -= 1
     return A
 
 
