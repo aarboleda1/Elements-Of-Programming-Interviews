@@ -1,7 +1,14 @@
 from list_node import ListNode
 from test_framework import generic_test
 
+"""7.1 Merge two sorted lists
 
+Basic Algorithm: Choose lesser of the two nodes and append them
+to pointers. It's a good test of pointers and looping through a
+linked list
+
+- [ ATTEMPTED ] 5/29
+"""
 def merge_two_sorted_lists(L1, L2):
 
     # Creates a placeholder for the result.
