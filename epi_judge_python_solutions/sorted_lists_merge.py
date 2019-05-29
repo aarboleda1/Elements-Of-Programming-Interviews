@@ -16,7 +16,7 @@ def merge_two_sorted_lists(L1, L2):
 
     # Appends the remaining nodes of L1 or L2
     tail.next = L1 or L2
-    return dummy_head.next
+    retusrn dummy_head.next
 
 
 if __name__ == '__main__':

@@ -1,6 +1,10 @@
 # Total Count Solved: 7
 https://leetcode.com/discuss/interview-experience/296777/google-seti-uni-grad-onsite-interviews
 # HISTORY LOG
+*5/29*
+- [ATTEMPTED] 7.1 Merge two sorted lists
+*5/28*
+- Interview with Twitter. Dutch National Flag. Did not solve correctly :(
 *5/27*
 - [ SOLVED ] Design question https://leetcode.com/problems/insert-delete-getrandom-o1/submissions/
 - [ ATTEMPTED ] MinimumSwaps https://bit.ly/2JDRlm4
