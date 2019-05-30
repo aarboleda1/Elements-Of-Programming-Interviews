@@ -2,7 +2,10 @@
 https://leetcode.com/discuss/interview-experience/296777/google-seti-uni-grad-onsite-interviews
 # HISTORY LOG
 *5/29*
-- [ATTEMPTED] 7.1 Merge two sorted lists
+- [ ATTEMPTED ] 7.1 Merge two sorted lists
+- [ ] 7.2 Reverse a single sublist
+- [ ] 7.3 Test for cyclicity
+- [ ] 7.7 Remove kth last element from a list
 *5/28*
 - Interview with Twitter. Dutch National Flag. Did not solve correctly :(
 *5/27*
