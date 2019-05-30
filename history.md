@@ -5,10 +5,11 @@
 | 6.5 Test palindromicity | - *ATTEMPTED*, 5/25 | is_string_palindromic.py |
 | **Bootcamp 7: Linked List** | 5/25, 5/29 | ------- |
 | 7.1 Merge two sorted lists | *SOLVED*, 5/25, ATTEMPTED 5/29 | sorted_list_merge.py |
-| 7.2 Reverse a single sublist | | reverse\_sublist.py |
+| 7.2 Reverse a single sublist | *ATTEMPTED*, 5/29 | reverse\_sublist.py |
 | 7.3 Test for cyclicity | | is\_list\_cyclic.py |
 | 7.4 Test for overlapping lists-lists are cycle-free| | do\_terminated\_lists\_overlap.py |
-| 7.7  Remove kth last element from a list | delete_kth_last_from_list.py |
+| 7.7  Remove kth last element from a list | *SOLVED*, 5/30 | delete_kth_last_from_list.py |
+| 7.10 Implement Even-Odd Merge | *SOLVED*, 5/30 | even_odd_list_merge.py
 | **Bootcamp 6: Hash Table** | 5/17, 5/27 | ------- |
 | 12.1 Test for palindromic permutations | *SOLVED* 5/17 | is_string_permutable_to_palindrome.py |
 | 12.2 Is an anonymous letter constructible |  *SOLVED* 5/18 | is_anonymous_letter_constructible.py |

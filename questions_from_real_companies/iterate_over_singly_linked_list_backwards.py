@@ -33,6 +33,7 @@ def iterateBackwardsRecursive(L):
 
     iterateBackwardsRecursive(L.next)
     print(L.data)
+
 """Key points
 - Familiarity of data structures LIFO and FIFO.
 - Array requires reallocation but has great locality of reference and no space
@@ -90,7 +91,7 @@ def iterateBackwardsWithO1Memory(L):
 
 if __name__ == "__main__":
     L = ListNode(1, ListNode(2, ListNode(3)))
-    # iterateBackwardsRecursive(L)
-    # iterateBackwardsIterative(L)
-    # iterateBackwardsByReversingInPlace(L)
+    iterateBackwardsRecursive(L)
+    iterateBackwardsIterative(L)
+    iterateBackwardsByReversingInPlace(L)
     iterateBackwardsWithO1Memory(L)
