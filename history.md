@@ -10,7 +10,6 @@
 | 7.4 Test for overlapping lists-lists are cycle-free| | do\_terminated\_lists\_overlap.py |
 | 7.7  Remove kth last element from a list | *SOLVED*, 5/30 | delete_kth_last_from_list.py |
 | 7.10 Implement Even-Odd Merge | *SOLVED*, 5/30 | even_odd_list_merge.py
-| **Bootcamp 9: Binary Trees** | 5/30 | ------- |
 | **Bootcamp 6: Hash Table** | 5/17, 5/27 | ------- |
 | 12.1 Test for palindromic permutations | *SOLVED* 5/17 | is_string_permutable_to_palindrome.py |
 | 12.2 Is an anonymous letter constructible |  *SOLVED* 5/18 | is_anonymous_letter_constructible.py |
@@ -19,7 +18,9 @@
 | 12.6 Find smallest subarray covering all values| *SOLVED* 5/18 | smallest_subarray_covering_all_values.py |
 | **Bootcamp 9: Binary Trees** | 5/29 | ------- |
 | 9.1 Test if a binary tree is height-balanced | 5/29 | ------- |
-| 9.2 Test if a binary tree is symmetric | 5/29 | ------- |
+| 9.2 Test if a binary tree is symmetric | 5/31 | is_tree_symmetric.py |
+| 9.3 Compute the lowest common ancestor in a binary tree | | 5/31|
 | 9.4 Compute the LCA when nodes have parent pointers | 5/29 | ------- |
+| 9.10 Compute the successor | | successor_in_tree.py |
 | 9.11 Implement an inorder traversal with O(1) space | 5/29 | ------- |
 | 9.12 Reconstruct a binary tree from traversal data | 5/29 | ------- |
