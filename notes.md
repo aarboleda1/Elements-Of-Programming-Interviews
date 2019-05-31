@@ -1,6 +1,6 @@
 # Total Count Solved: 7
 https://leetcode.com/discuss/interview-experience/296777/google-seti-uni-grad-onsite-interviews
-
+Patterns in algorithms: https://medium.com/@fahimulhaq/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
 **EPI Bootcamps**
 [Completed] LinkedList
 [Completed] Arrays
