@@ -1,7 +1,23 @@
 # Total Count Solved: 7
 https://leetcode.com/discuss/interview-experience/296777/google-seti-uni-grad-onsite-interviews
+
+**EPI Bootcamps**
+[Completed] LinkedList
+[Completed] Arrays
+[Completed] HashTable
+[ ] Binary Trees
+[Completed] BST 5/14
+[ ] Primitive Types
+[ ] Heaps
+[ ] Searching
+[ ] Stacks and Queues
+[In Progress] Strings
+[ ] Sorting
+[ ] Graphs
+[x] Greedy Algorithms and Invariants
 # HISTORY LOG
 *5/30*
+- [ ]  
 - [ SOLVED ] 7.10 Implement Even-Odd Merge
 - [ SOLVED ] 5/30 read gotchas
 - [ SOLVED ] - questions_from_real_companies/iterate_over_singly_linked_list_backwards.py

@@ -10,6 +10,7 @@
 | 7.4 Test for overlapping lists-lists are cycle-free| | do\_terminated\_lists\_overlap.py |
 | 7.7  Remove kth last element from a list | *SOLVED*, 5/30 | delete_kth_last_from_list.py |
 | 7.10 Implement Even-Odd Merge | *SOLVED*, 5/30 | even_odd_list_merge.py
+| **Bootcamp 9: Binary Trees** | 5/30 | ------- |
 | **Bootcamp 6: Hash Table** | 5/17, 5/27 | ------- |
 | 12.1 Test for palindromic permutations | *SOLVED* 5/17 | is_string_permutable_to_palindrome.py |
 | 12.2 Is an anonymous letter constructible |  *SOLVED* 5/18 | is_anonymous_letter_constructible.py |
