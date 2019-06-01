@@ -6,6 +6,40 @@ from test_framework.binary_tree_utils import must_find_node, strip_parent_link
 from test_framework.test_failure import TestFailure
 from test_framework.test_utils import enable_executor_hook
 
+"""9.3 Compute the lowest common ancestor in a binary tree
+
+Design an algorithm for computing the LCA of two nodes in a binary tree in which
+nodes do not have a parent field
+
+Basic Algorithm: Traverse thru the tree and search for node0 and node1. Return
+to the caller the result of the search and handle the cases
+1) You've found both nodes, then current_node is the root
+2) You've found 1 of the nodes
+[ ATTEMPTED ] 5/31
+
+Watch this video if you can't solve it and reason about it properly
+https://www.youtube.com/watch?v=py3R23aAPCA
+"""
+
+def lca(tree, node0, node1):
+    def search(cur_node, node0, node1):
+        if cur_node is None:
+            return None
+        # Found the node we've been looking for, return myself
+        if cur_node == node0 or cur_node == node1:
+            return cur_node
+
+        # Perform search, if both searches come back positive,
+        # then we are sitting at the LCA
+        left = search(cur_node.left, node0, node1)
+        right = search(cur_node.right, node0, node1)
+        if not right:
+            return left
+        if not left:
+            return right
+        return cur_node  # Both children nodes have been found, this is the LCA!
+
+    return search(tree, node0, node1)
 
 def lca(tree, node0, node1):
 

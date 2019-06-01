@@ -2,11 +2,11 @@
 https://leetcode.com/discuss/interview-experience/296777/google-seti-uni-grad-onsite-interviews
 Patterns in algorithms: https://medium.com/@fahimulhaq/14-patterns-to-ace-any-coding-interview-question-c5bb3357f6ed
 **EPI Bootcamps**
-[Completed] LinkedList
-[Completed] Arrays
-[Completed] HashTable
-[ ] Binary Trees
-[Completed] BST 5/14
+[ Completed ] LinkedList
+[ Completed ] Arrays
+[ Completed ] HashTable
+[ In-Progress ] Binary Trees
+[ Completed ] BST 5/14
 [ ] Primitive Types
 [ ] Heaps
 [ ] Searching
@@ -16,6 +16,11 @@ Patterns in algorithms: https://medium.com/@fahimulhaq/14-patterns-to-ace-any-co
 [ ] Graphs
 [x] Greedy Algorithms and Invariants
 # HISTORY LOG
+
+*5/31*
+- [ ATTEMPTED ] 9.4 Compute LCA in a binary tree when nodes have parent pointers
+- [ ATTEMPTED ] 9.3 Compute LCA in a binary tree
+- [ ATTEMPTED ] 9.2 Test if a binary tree is symmetric
 *5/30*
 - [ ]  
 - [ SOLVED ] 7.10 Implement Even-Odd Merge

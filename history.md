@@ -16,10 +16,11 @@
 | 12.3 Implement an ISBN cache/LRU Cache |  *SOLVED* 5/18 | lru_cache.py |
 | 12.5 Find the nearest repeated entries in an array | *SOLVED* 5/18 | nearest_repeated_entries.py |
 | 12.6 Find smallest subarray covering all values| *SOLVED* 5/18 | smallest_subarray_covering_all_values.py |
+
 | **Bootcamp 9: Binary Trees** | 5/29 | ------- |
 | 9.1 Test if a binary tree is height-balanced | 5/29 | ------- |
 | 9.2 Test if a binary tree is symmetric | 5/31 | is_tree_symmetric.py |
-| 9.3 Compute the lowest common ancestor in a binary tree | | 5/31|
+| 9.3 Compute the lowest common ancestor in a binary tree | ATTEMPTED 5/31 | lowest_common_ancestor.py |
 | 9.4 Compute the LCA when nodes have parent pointers | 5/29 | ------- |
 | 9.10 Compute the successor | | successor_in_tree.py |
 | 9.11 Implement an inorder traversal with O(1) space | 5/29 | ------- |
