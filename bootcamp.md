@@ -27,3 +27,5 @@
 | Leetcode | | |
 | (SOLVED 6/2) Sum binary tree paths (Facebook)| https://leetcode.com/problems/binary-tree-paths/ |
 | (SOLVED, 6/2) Range Sum of BST (Google)| https://leetcode.com/problems/binary-tree-paths/ |
+| (ATTEMPTED, 6/2) N-ary Tree Postorder Traversal | https://leetcode.com/problems/n-ary-tree-postorder-traversal/solution/ |
+| (ATTEMPTED, 6/2) Binary Tree Postorder Traversal| https://leetcode.com/problems/binary-tree-postorder-traversal/|
