@@ -13,8 +13,16 @@ nodes do not have a parent field
 
 Basic Algorithm: Traverse thru the tree and search for node0 and node1. Return
 to the caller the result of the search and handle the cases
-1) You've found both nodes, then current_node is the root
-2) You've found 1 of the nodes
+1) When you traverse, the first node you find, if it's equal to n1 or n2. You
+can always return consider the case:
+If we are looking for 3,2, the first encounter with node 3, we can return early
+because w
+     Tree
+       1
+   3        5
+2
+2) You've found both nodes, then current_node is the root
+3) You've found 1 of the nodes
 [ ATTEMPTED ] 5/31
 
 Watch this video if you can't solve it and reason about it properly

@@ -10,29 +10,13 @@ from test_framework.test_utils import enable_executor_hook
 
 Design an algorithm for computing the LCA of two nodes in a binary tree in which
 nodes do not have a parent field
-
+[ ATTEMPTED ] 5/31
 [ ATTEMPTED ] 5/31
 """
 
 
 def lca(tree, node0, node1):
-    def search(cur_node, node0, node1):
-        if cur_node is None:
-            return None
-        if cur_node == node0 or cur_node == node1:
-            return cur_node
-
-        # Perform search, if both searches come back positive,
-        # then we are sitting at the LCA
-        left = search(cur_node.left, node0, node1)
-        right = search(cur_node.right, node0, node1)
-        if not right:
-            return left
-        if not left:
-            return right
-        return cur_node  # we've found node on both sides
-
-    return search(tree, node0, node1)
+    pass
 
 
 @enable_executor_hook

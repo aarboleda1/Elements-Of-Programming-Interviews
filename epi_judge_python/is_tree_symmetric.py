@@ -4,13 +4,12 @@ from test_framework import generic_test
 
 
 """9.1 Test if a binary tree is symmetric
-[ ATTEMPTED ]
+[ SOLVED ] 6/2
+[ ATTEMPTED ] 5/31
 """
 
-
 def is_symmetric(tree):
-
-    return check_symmetric(tree, tree)
+    pass
 
 
 if __name__ == "__main__":

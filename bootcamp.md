@@ -21,7 +21,10 @@
 | 9.1 Test if a binary tree is height-balanced | 5/29 | ------- |
 | 9.2 Test if a binary tree is symmetric | 5/31 | is_tree_symmetric.py |
 | 9.3 Compute the lowest common ancestor in a binary tree | ATTEMPTED 5/31 | lowest_common_ancestor.py |
-| 9.4 Compute the LCA when nodes have parent pointers | 5/29 | ------- |
-| 9.10 Compute the successor | | successor_in_tree.py |
-| 9.11 Implement an inorder traversal with O(1) space | 5/29 | ------- |
-| 9.12 Reconstruct a binary tree from traversal data | 5/29 | ------- |
+| 9.4 Compute the LCA when nodes have parent pointers | ATTEMPTED* 6/1 | 6/1  |
+| 9.10 Compute the successor | *ATTEMPTED* 6/1 | successor_in_tree.py |
+| 9.11 Implement an inorder traversal with O(1) space |  | 6/1 |
+| 9.12 Reconstruct a binary tree from traversal data | 6/1 | 6/1 |
+| Leetcode | | |
+| (SOLVED 6/2) Sum binary tree paths (Facebook)| https://leetcode.com/problems/binary-tree-paths/ |
+| (SOLVED, 6/2) Range Sum of BST (Google)| https://leetcode.com/problems/binary-tree-paths/ |

@@ -16,7 +16,12 @@ Patterns in algorithms: https://medium.com/@fahimulhaq/14-patterns-to-ace-any-co
 [ ] Graphs
 [x] Greedy Algorithms and Invariants
 # HISTORY LOG
-
+*6/2* Review Day and going over passed concepts
+- [ ATTEMPTED ] 9.3 Compute LCA in a binary tree
+- [ SOLVED ] 9.2 Test if a binary tree is symmetric
+- [ SOLVED ] 9.1 Test if a Binary Tree is height-balanced
+*6/1*
+- [ SOLVED ] 9.10 Compute the successor
 *5/31*
 - [ ATTEMPTED ] 9.4 Compute LCA in a binary tree when nodes have parent pointers
 - [ ATTEMPTED ] 9.3 Compute LCA in a binary tree
