@@ -5,17 +5,19 @@ Patterns in algorithms: https://medium.com/@fahimulhaq/14-patterns-to-ace-any-co
 [ Completed ] LinkedList
 [ Completed ] Arrays
 [ Completed ] HashTable
-[ In-Progress ] Binary Trees
+[ Completed ] Binary Trees
 [ Completed ] BST 5/14
+[In Progress] Strings
 [ ] Primitive Types
 [ ] Heaps
 [ ] Searching
 [ ] Stacks and Queues
-[In Progress] Strings
 [ ] Sorting
 [ ] Graphs
 [x] Greedy Algorithms and Invariants
 # HISTORY LOG
+*6/3*
+- [SOLVED] 6.4 Replace and Remove
 *6/2* Review Day and going over passed concepts
 - [ ATTEMPTED ] 9.3 Compute LCA in a binary tree
 - [ SOLVED ] 9.2 Test if a binary tree is symmetric
@@ -58,7 +60,7 @@ Rest Day
 - [Leet ] Mock Interview with Bernie
 
 *5/24*
-- [ATTEMPTED] https://leetcode.com/problems/different-ways-to-add-parentheses/description/
+- [ ATTEMPTED ] https://leetcode.com/problems/different-ways-to-add-parentheses/description/
   - divide and conquer google question
 *5/23* **String Bootcamp**
 - [ ATTEMPTED ] 6.1 Interconvert strings and integers/string_integer_interconversion.py

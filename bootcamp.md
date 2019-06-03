@@ -1,7 +1,7 @@
 | Problem |  Attempt Log | Python  |
 | ------ | ------ | ------ |
 | **Bootcamp 6: String** | 5/25, 5/27 | ------- |
-| 6.4 Replace and Remove | - *ATTEMPED*, 5/25 | replace_and_remove.py |
+| 6.4 Replace and Remove | (SOLVED, 6/2), (ATTEMPED, 5/25) | replace_and_remove.py |
 | 6.5 Test palindromicity | - *ATTEMPTED*, 5/25 | is_string_palindromic.py |
 | **Bootcamp 7: Linked List** | 5/25, 5/29 | ------- |
 | 7.1 Merge two sorted lists | *SOLVED*, 5/25, ATTEMPTED 5/29 | sorted_list_merge.py |

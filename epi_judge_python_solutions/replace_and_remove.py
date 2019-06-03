@@ -34,6 +34,7 @@ Final string length is write_idx + a_count
 Then replace all the a's. Do this by iterating backwards and writing the d's
 
 Remove
+[ SOLVED ] 6/2
 [ ATTEMPTED ] - 5/27
 [ ATTEMPTED ] - 5/25
 """
