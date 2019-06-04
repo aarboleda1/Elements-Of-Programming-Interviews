@@ -7,16 +7,22 @@ Patterns in algorithms: https://medium.com/@fahimulhaq/14-patterns-to-ace-any-co
 [ Completed ] HashTable
 [ Completed ] Binary Trees
 [ Completed ] BST 5/14
+[ Completed ] Greedy Algorithms and Invariants
+[ In Progress ] Sorting 6/3
 [In Progress] Strings
 [ ] Primitive Types
 [ ] Heaps
 [ ] Searching
 [ ] Stacks and Queues
-[ ] Sorting
 [ ] Graphs
-[x] Greedy Algorithms and Invariants
 # HISTORY LOG
-*6/3*
+*6/3* Reviewed String bootcamp problems
+- [ ] 13.11 Implement a fast sorting algorithm for lists
+- [ ] 13.8 Compute the union of intervals
+- [ ] 13.7 Merging intervals
+- [ ATTEMPTED ] 13.6 Render a calendar
+- [ SOLVED ] 13.2 Merge two sorted arrays
+- [ SOLVED ] 13.1 Compute the intersection of two sorted arrays
 - [SOLVED] 6.4 Replace and Remove
 *6/2* Review Day and going over passed concepts
 - [ ATTEMPTED ] 9.3 Compute LCA in a binary tree
