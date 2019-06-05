@@ -3,10 +3,11 @@
 | **Bootcamp 6: Sorting** | 6/3 | ------- |
 | 13.1 Compute the intersection of two sorted arrays | (SOLVED, 6/3) | intersect_sorted_arrays.py |
 | 13.2 Merge two sorted arrays | (SOLVED, 6/3) | two_sorted_arrays_merge.py |
-| 13.6 Render a calendar | | calendar_rendering.py |
-| 13.7 Merging intervals | | interval\_add.py |
+| 13.6 Render a calendar | (ATTEMPTED, 6/3) | calendar_rendering.py |
+| 13.7 Merging intervals | (SOLVED, 6/3) | interval_add.py |
 | 13.8 Compute the union of intervals | | intervals\_union.py |
 | 13.11 Implement a fast sorting algorithm for lists | | sort_list.py |
+| Schedule meetings | | sort_list.py |
 | **Bootcamp 6: String** | 5/25, 5/27 | ------- |
 | 6.4 Replace and Remove | (SOLVED, 6/2), (ATTEMPED, 5/25) | replace_and_remove.py |
 | 6.5 Test palindromicity | - *ATTEMPTED*, 5/25 | is_string_palindromic.py |

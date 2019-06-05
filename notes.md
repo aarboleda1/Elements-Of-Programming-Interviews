@@ -18,8 +18,8 @@ Patterns in algorithms: https://medium.com/@fahimulhaq/14-patterns-to-ace-any-co
 # HISTORY LOG
 *6/3* Reviewed String bootcamp problems
 - [ ] 13.11 Implement a fast sorting algorithm for lists
-- [ ] 13.8 Compute the union of intervals
-- [ ] 13.7 Merging intervals
+- [ SOLVED ] 13.8 Compute the union of intervals
+- [  ] 13.7 Merging intervals
 - [ ATTEMPTED ] 13.6 Render a calendar
 - [ SOLVED ] 13.2 Merge two sorted arrays
 - [ SOLVED ] 13.1 Compute the intersection of two sorted arrays
