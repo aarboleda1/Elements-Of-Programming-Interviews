@@ -1,6 +1,26 @@
 from sorted_lists_merge import merge_two_sorted_lists
 from test_framework import generic_test
+"""13.11 Implement a fast sorting algorithm for lists
 
+Hint: In what respects are lists superior to arrays?
+[ATTEMPTED] 6/5
+"""
+def insertion_sort(L):
+    dummy_head = ListNode(0, L)
+    while L and L.next:
+        if L.data > L.next.data:
+            target = L.next
+            pre = dummy_head
+            while pre.next.data < target.data:
+                pre = pre.next
+
+            temp = pre.next
+            pre.next = target
+            L.next = target.next
+            target.next = temp
+        else:
+            L = L.next
+    return dummy_head.next
 
 def stable_sort_list(L):
 

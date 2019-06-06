@@ -23,32 +23,7 @@ expressed as a set of disjoin intervals
 
 
 def union_of_intervals(intervals):
-    if not intervals:
-        return []
-    intervals.sort(
-        key=lambda interval: (interval.left.val, not interval.left.is_closed)
-    )
-    res = [intervals[0]]
-    for i in range(len(intervals)):
-        interval = intervals[i]
-        last_interval = res[-1]
-
-        if (
-            intervals
-            and last_interval.right.val > interval.left.val
-            or (
-                interval.left.val == last_interval.right.val
-                and (interval.left.is_closed or last_interval.right.is_closed)
-            )
-        ):  # intersection
-            if interval.right.val > last_interval.right.val or (
-                interval.right.val == last_interval.right.val
-                and interval.right.is_closed
-            ):
-                res[-1] = Interval(res[-1].left, interval.right)
-        else:
-            res.append(interval)
-    return res
+    pass
 
 
 @enable_executor_hook

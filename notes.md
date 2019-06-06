@@ -8,13 +8,15 @@ Patterns in algorithms: https://medium.com/@fahimulhaq/14-patterns-to-ace-any-co
 [ Completed ] Binary Trees
 [ Completed ] BST 5/14
 [ Completed ] Greedy Algorithms and Invariants
-[ In Progress ] Sorting 6/3
-[In Progress] Strings
+[ Completed ] Sorting 6/3 - Redo
+[ In Progress] Searching
+[ In Progress ] Strings
+[ ] Recursion, Ch 15
 [ ] Primitive Types
 [ ] Heaps
-[ ] Searching
 [ ] Stacks and Queues
 [ ] Graphs
+[ ] Algorithm Analysis
 # HISTORY LOG
 *6/3* Reviewed String bootcamp problems
 - [ ] 13.11 Implement a fast sorting algorithm for lists
