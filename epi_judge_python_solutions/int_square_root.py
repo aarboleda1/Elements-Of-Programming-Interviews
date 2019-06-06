@@ -16,6 +16,13 @@ unit-sized (incrementing by 1) increments. For example, if n^2 < k, then no numb
 smaller than n can be the result and if n^2 > k, then no number greater than or
 equal to x can be the result
 
+This ability to eliminate larget sets of possibilities suggests a binary search.
+Specifically, maintain an interval consisting of values with respect to k
+
+Initialize the interval from 0, k. Compare the square root of the mid of the interval
+(l + r) // 2 with k and use the elimination rule to update the interval. If n^2 <= k,
+we know all integers less than or equal to n have a square less than or equal to k,
+Therefore, update the interval to n + 1, k.
 
 Hint: Look out for corner cases
 [ ATTEMPTED ] 6/6

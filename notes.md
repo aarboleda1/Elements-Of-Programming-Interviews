@@ -20,6 +20,8 @@ Patterns in algorithms: https://medium.com/@fahimulhaq/14-patterns-to-ace-any-co
 # HISTORY LOG
 *6/6*
 - Reviewed dutch national flag partition
+- calendar_rendering.py
+- interval_add.py
 *6/3* Reviewed String bootcamp problems
 - [ ATTEMPTED ] 13.11 Implement a fast sorting algorithm for lists
 - [ SOLVED ] 13.8 Compute the union of intervals
