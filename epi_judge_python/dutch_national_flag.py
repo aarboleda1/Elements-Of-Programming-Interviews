@@ -13,30 +13,18 @@ Write a program that takes an array A and index i into A, and
 rearranges the elements such that all elements less han A[i] appear first,
 followed by elements equal to the pivot followed by elements greater than the
 pivot.
-
+[ ATTEMPTED ] 6/6/19
 [ ATTEMPTED ] 5/2/19
 [ ATTEMPTED ] 5/19
 
-pivot_idx = 1
-write_idx = 0
-[1,3,0,9,10,3]
-first loop -> [1,0,3,3,10,9]
+[1,3,0,9,10,3] pivot_index = 2
+[0,3,1,9,10,3] mid = 3, = 1
+[0,9,1,3,10,3] mid = 4, lo = 2
+[0,9,10,3,1,3] mid = 5, lo = 3
 """
 
 def dutch_flag_partition(pivot_index, A):
-    pivot_val = A[pivot_index]
-    write_idx = 0
-    for i in range(len(A)):
-        if A[i] < pivot_val:
-            A[i], A[write_idx] = A[write_idx], A[i]
-            write_idx += 1
-
-    write_idx = len(A) - 1
-    for i in range(len(A) - 1, -1, -1):
-        if A[i] >= pivot_val:
-            A[i], A[write_idx] = A[write_idx], A[i]
-            write_idx -= 1
-    return A
+    pass
 
 
 @enable_executor_hook

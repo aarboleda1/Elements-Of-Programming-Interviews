@@ -18,7 +18,8 @@ Patterns in algorithms: https://medium.com/@fahimulhaq/14-patterns-to-ace-any-co
 [ ] Graphs
 [ ] Algorithm Analysis
 # HISTORY LOG
-*6/5*
+*6/6*
+- Reviewed dutch national flag partition
 *6/3* Reviewed String bootcamp problems
 - [ ATTEMPTED ] 13.11 Implement a fast sorting algorithm for lists
 - [ SOLVED ] 13.8 Compute the union of intervals

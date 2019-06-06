@@ -4,7 +4,7 @@
 | 11.1 Search a sorted array for first occurrence of k | (ATTEMPTED, 6/5), | search_first_key.py |
 | 11.2 Search sorted array for first entry equal to its index | (ATTEMPTED, 6/5) | search_entry_equal_to_index.py |
 | 11.3 Search a cyclically sorted array | (ATTEMPTED, 6/5) | search_shifted_sorted_array.py |
-| 11.4 Compute the integer square root | () | int\_square\_root.py |
+| 11.4 Compute the integer square root | () | int_square_root.py |
 | 11.5 Compute the real square root | () | real\_square\_root.py |
 | 11.8 Find the kth largest element| () | kth\_largest\_in\_array.py |
 | 11.9 Find the missing IP address | () | absent\_value\_array.py |
@@ -15,7 +15,7 @@
 | 13.6 Render a calendar | (ATTEMPTED, 6/3) | calendar_rendering.py |
 | 13.7 Merging intervals | (ATTEMPTED, 6/3) | interval_add.py |
 | 13.8 Compute the union of intervals | (SOLVED, 6/3) | intervals\_union.py |
-| 13.11 Implement a fast sorting algorithm for lists | (6/5)| sort_list.py |
+| 13.11 Implement a fast sorting algorithm for lists | (ATTEMPTED, 6/5)| sort_list.py |
 | Schedule meetings | | sort_list.py |
 | **Bootcamp 6: String** | 5/25, 5/27 | ------- |
 | 6.4 Replace and Remove | (SOLVED, 6/2), (ATTEMPED, 5/25) | replace_and_remove.py |
