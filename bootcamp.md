@@ -3,7 +3,7 @@
 | **Bootcamp 11: Searching** | 6/3 | ------- |
 | 11.1 Search a sorted array for first occurrence of k | (ATTEMPTED, 6/5), | search_first_key.py |
 | 11.2 Search sorted array for first entry equal to its index | (ATTEMPTED, 6/5) | search_entry_equal_to_index.py |
-| 11.3 Search a cyclically sorted array | () | search\_shifted\_sorted\_array.py |
+| 11.3 Search a cyclically sorted array | (ATTEMPTED, 6/5) | search_shifted_sorted_array.py |
 | 11.4 Compute the integer square root | () | int\_square\_root.py |
 | 11.5 Compute the real square root | () | real\_square\_root.py |
 | 11.8 Find the kth largest element| () | kth\_largest\_in\_array.py |
