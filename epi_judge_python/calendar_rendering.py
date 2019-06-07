@@ -37,7 +37,30 @@ Endpoint = collections.namedtuple('Endpoint', ('time', 'is_start'))
 
 
 def find_max_simultaneous_events(A):
-    pass
+    # endpoints = [
+    #     p for event in A for p in (Endpoint(event.start, True),
+    #                                Endpoint(event.finish, False))
+    # ]
+    # endpoints.sort(key=lambda endpoint: (endpoint.time, not endpoint.is_start))
+    # res = count = 0
+    # for e in endpoints:
+    #     if e.is_start:
+    #         count += 1
+    #     else:
+    #         count -= 1
+    #     res = max(res, count)
+
+    starts = sorted([event[0] for event in A])
+    ends = sorted([event[1] for event in A])
+    pre, num_events = 0, 0
+    for i in range(len(starts)):
+        if starts[i] >= ends[pre]:
+            num_events -= 1
+            pre += 1
+        num_events += 1
+    return num_events
+
+
 
 
 @enable_executor_hook
@@ -47,6 +70,9 @@ def find_max_simultaneous_events_wrapper(executor, events):
 
 
 if __name__ == "__main__":
+    events = [[1, 5], [2, 7], [4, 5], [6, 10], [8, 9], [9, 17], [11, 13], [12, 15], [14, 15]]
+    r = find_max_simultaneous_events(events)
+    print(r)
     exit(
         generic_test.generic_test_main(
             "calendar_rendering.py",
