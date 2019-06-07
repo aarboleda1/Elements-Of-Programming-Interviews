@@ -37,21 +37,7 @@ Space Complexity
 
 
 def add_interval(disjoint_intervals, new_interval):
-    i = 0
-    disjoint_intervals.sort(key=lambda i: i.left)
-    n = len(disjoint_intervals)
-    res = []
-    while i < n and disjoint_intervals[i].right < new_interval.left:
-        res.append(disjoint_intervals[i])
-        i += 1
-    interval = new_interval
-    while i < n and disjoint_intervals[i].left <= new_interval.right:
-        interval = Interval(
-            min(disjoint_intervals[i].left, interval.left),
-            max(disjoint_intervals[i].right, interval.right),
-        )
-        i += 1
-    return res + [interval] + disjoint_intervals[i:]
+    pass
 
 
 @enable_executor_hook
