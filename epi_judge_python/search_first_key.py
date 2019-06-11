@@ -5,6 +5,12 @@ from test_framework import generic_test
 
 A = [-14, 10, 2, 108, 108, 248, 285, 285, 285, 401]
 
+[-14, 10, 2, 108, 108, 248, 285, 285, 285, 401]
+
+-14, 10, 2, 108
+-14, 10, 2, 108
+108
+
 Write a method that takes in a sorted array and a key and returns the index
 of the first occurrence of that key in the array. Return -1 if the key does not
 appear in the array. For example, when applied to array A in the example above
@@ -24,11 +30,21 @@ a log N solution
 """
 
 def search_first_of_k(A, k):
-    pass
+    left, right, res = 0, len(A) - 1, -1
+    while left <= right:
+        mid = (left + right) // 2
+        if A[mid] == k:
+            res = mid
+            right = mid - 1
+        elif A[mid] < k:
+            left = mid + 1
+        else:
+            right = mid - 1
+    return res
 
 if __name__ == "__main__":
     A = [-14, 2, 108, 108, 248, 285, 285, 285, 401]
-    print(search_first_of_k(A, 285))
+    print(search_first_of_k(A, 108))
     exit(
         generic_test.generic_test_main(
             "search_first_key.py", "search_first_key.tsv", search_first_of_k

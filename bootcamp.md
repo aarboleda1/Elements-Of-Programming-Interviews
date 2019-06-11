@@ -1,14 +1,15 @@
 | Problem |  Attempt Log | Python  |
 | ------ | ------ | ------ |
+| **Bootcamp 10: Heap** | 6/11 | ------- |
 | **Bootcamp 11: Searching** | 6/3 | ------- |
 | 11.1 Search a sorted array for first occurrence of k | (ATTEMPTED, 6/5), | search_first_key.py |
 | 11.2 Search sorted array for first entry equal to its index | (ATTEMPTED, 6/5) | search_entry_equal_to_index.py |
 | 11.3 Search a cyclically sorted array | (ATTEMPTED, 6/5) | search_shifted_sorted_array.py |
-| 11.4 Compute the integer square root | () | int_square_root.py |
-| 11.5 Compute the real square root | () | real\_square\_root.py |
-| 11.8 Find the kth largest element| () | kth\_largest\_in\_array.py |
-| 11.9 Find the missing IP address | () | absent\_value\_array.py |
-| 11.10 Find the duplicate and missing elements | () | search\_for\_missing\_element.py |
+| 11.4 Compute the integer square root | (ATTEMPTED, 6/5) | int_square_root.py |
+| 11.5 Compute the real square root | (ATTEMPTED, 6/10) | real_square_root.py |
+| 11.8 Find the kth largest element| (, 6/10) | kth_largest_in_array.py |
+| 11.9 Find the missing IP address | (, 6/10) | absent_value_array.py |
+| 11.10 Find the duplicate and missing elements | () | search_for_missing_element.py |
 | **Bootcamp 6: Sorting** | 6/3 | ------- |
 | 13.1 Compute the intersection of two sorted arrays | (SOLVED, 6/3) | intersect_sorted_arrays.py |
 | 13.2 Merge two sorted arrays | (SOLVED, 6/3) | two_sorted_arrays_merge.py |
@@ -22,7 +23,7 @@
 | 6.5 Test palindromicity | - *ATTEMPTED*, 5/25 | is_string_palindromic.py |
 | **Bootcamp 7: Linked List** | 5/25, 5/29 | ------- |
 | 7.1 Merge two sorted lists | *SOLVED*, 5/25, ATTEMPTED 5/29 | sorted_list_merge.py |
-| 7.2 Reverse a single sublist | *ATTEMPTED*, 5/29 | reverse\_sublist.py |
+| 7.2 Reverse a single sublist | *ATTEMPTED*, 5/29 | reverse_sublist.py |
 | 7.3 Test for cyclicity | | is\_list\_cyclic.py |
 | 7.4 Test for overlapping lists-lists are cycle-free| | do\_terminated\_lists\_overlap.py |
 | 7.7  Remove kth last element from a list | *SOLVED*, 5/30 | delete_kth_last_from_list.py |

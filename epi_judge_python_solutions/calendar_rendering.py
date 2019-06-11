@@ -56,7 +56,21 @@ Event = collections.namedtuple('Event', ('start', 'finish'))
 # are equal, start_time comes first
 Endpoint = collections.namedtuple('Endpoint', ('time', 'is_start'))
 
+# O(N) time and O(N) space
+def find_max_simultaneous_events(A):
+    starts = sorted([e.start for e in A])
+    ends = sorted([e.finish for e in A])
+    num_sim_events = 0
+    i, j = 0, 0
+    while i < len(starts):
+        if starts[i] > ends[j]:
+            num_sim_events -= 1
+            j += 1
+        num_sim_events += 1
+        i += 1
+    return num_sim_events
 
+# O(N) time and O(N) space
 def find_max_simultaneous_events(A):
 
     # Builds an array of all endpoints.

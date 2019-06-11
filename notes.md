@@ -11,13 +11,15 @@ Patterns in algorithms: https://medium.com/@fahimulhaq/14-patterns-to-ace-any-co
 [ Completed ] Sorting 6/3 - Redo
 [ In Progress] Searching
 [ In Progress ] Strings
+[ ] Heaps
 [ ] Recursion, Ch 15
 [ ] Primitive Types
-[ ] Heaps
 [ ] Stacks and Queues
 [ ] Graphs
 [ ] Algorithm Analysis
 # HISTORY LOG
+**6/8**
+- [ ATTEMPTED ] search_first_key.py
 *6/6*
 - Reviewed dutch national flag partition
 - calendar_rendering.py
