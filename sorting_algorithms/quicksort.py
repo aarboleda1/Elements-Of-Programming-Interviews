@@ -20,7 +20,6 @@ Terminology:
         are to the right
         pivot = 4
         A = [3, 2, 9, 8, 4]
-
 # pseudocode
 def quicksort(A, l, r):
     if l < r:

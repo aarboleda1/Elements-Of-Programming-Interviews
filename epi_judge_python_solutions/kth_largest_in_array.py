@@ -3,7 +3,11 @@ import random
 
 from test_framework import generic_test
 
-
+"""
+Back to Back SWE Youtube Video: https://www.youtube.com/watch?v=hGK_5n81drs&t=622s
+Back to Back SWE: https://bit.ly/2wR8IaA
+Leetcode: https://leetcode.com/problems/kth-largest-element-in-an-array/
+"""
 # The numbering starts from one, i.e., if A = [3, 1, -1, 2]
 # find_kth_largest(1, A) returns 3, find_kth_largest(2, A) returns 2,
 # find_kth_largest(3, A) returns 1, and find_kth_largest(4, A) returns -1.

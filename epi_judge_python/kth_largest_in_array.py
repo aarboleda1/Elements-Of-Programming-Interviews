@@ -18,15 +18,7 @@ h -2
 [-3]
 """
 def find_kth_largest(k, A):
-    h = []
-    for el in A:
-        if len(h) < k:
-            heappush(h, el)
-        else:
-            if h[0] < el:
-                heappop(h)
-                heappush(h, el)
-    return h[0]
+    pass
 
 
 if __name__ == '__main__':
