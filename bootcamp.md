@@ -7,8 +7,8 @@
 | 11.3 Search a cyclically sorted array | (ATTEMPTED, 6/5) | search_shifted_sorted_array.py |
 | 11.4 Compute the integer square root | (ATTEMPTED, 6/5) | int_square_root.py |
 | 11.5 Compute the real square root | (ATTEMPTED, 6/10) | real_square_root.py |
-| 11.8 Find the kth largest element| (, 6/10) | kth_largest_in_array.py |
-| 11.9 Find the missing IP address | (, 6/10) | absent_value_array.py |
+| 11.8 Find the kth largest element| (ATTEMPTED, 6/10) | kth_largest_in_array.py |
+| 11.9 Find the missing IP address | (ATTEMPTED, 6/10) | absent_value_array.py |
 | 11.10 Find the duplicate and missing elements | () | search_for_missing_element.py |
 | **Bootcamp 6: Sorting** | 6/3 | ------- |
 | 13.1 Compute the intersection of two sorted arrays | (SOLVED, 6/3) | intersect_sorted_arrays.py |
