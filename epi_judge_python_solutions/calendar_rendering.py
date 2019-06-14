@@ -94,6 +94,23 @@ def find_max_simultaneous_events(A):
             num_simultaneous_events -= 1
     return max_num_simultaneous_events
 
+# Heap Based Solution
+# Think of each interval, as is it's own bucket. Whether or not you can
+# put a new interval in a new "bucket", depends on the end time of the latest
+# interval. (new_interval.start >= some_interval.finish). If there are
+# multiple rooms that could fit, choose the room with the earliest finish time
+# Based off leetcode https://bit.ly/2ZpWCSi
+def find_max_simultaneous_events(A):
+    A.sort(key=lambda event: event.start)
+    res = 1
+    heap = [A[0].finish]
+    for i in range(1, len(A)):
+        if A[i].start > heap[0]:
+            heapq.heappushpop(heap, A[i].finish)
+        else:
+            heapq.heappush(heap, A[i].finish)
+            res = max(len(heap), res)
+    return res
 
 @enable_executor_hook
 def find_max_simultaneous_events_wrapper(executor, events):

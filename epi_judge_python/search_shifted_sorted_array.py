@@ -25,12 +25,19 @@ L          M     R
 [3, 1, 2]
 L   M  R
 - [ATTEMPTED] 6/5
+- [ATTEMPTED] 6/13
+
+Solve problem below then this leetcode problem: https://bit.ly/2Yi2NIc
 """
 def search_smallest(A):
     pass
 
 
 if __name__ == '__main__':
+    A = [3,5,0,2,1]
+    print(search_smallest(A))
+    A = [7,8,9,1,2]
+    print(search_smallest(A))
     exit(
         generic_test.generic_test_main("search_shifted_sorted_array.py",
                                        'search_shifted_sorted_array.tsv',

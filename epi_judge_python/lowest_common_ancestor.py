@@ -1,3 +1,4 @@
+import collections
 import functools
 
 from test_framework import generic_test
@@ -12,7 +13,42 @@ Design an algorithm for computing the LCA of two nodes in a binary tree in which
 nodes do not have a parent field
 [ ATTEMPTED ] 5/31
 [ ATTEMPTED ] 5/31
+
+
+1) Am I one of the nodes
+2) Of the left and right, have I found one of the nodes?
+
+If I am one of the nodes, always return myself
+1) I am a node, return myself, whetehr I cover or not
+2) left or right cases
+3) left and right cases but I'm not a node
+ans = C
+  C
+B
+
+
+left = B
+right = None
+
+ans = A
+     Z
+   A
+ B   C
+
+
+ans = D
+
+     D
+   A   C
+ B
+
+    G
+  F   B
+        C
+
 """
+
+result_tuple = collections.namedtuple("ResultTuple", ("num_nodes", "node"))
 
 
 def lca(tree, node0, node1):

@@ -30,18 +30,7 @@ a log N solution
 """
 
 def search_first_of_k(A, k):
-    left, right, res = 0, len(A) - 1, -1
-    while left <= right:
-        mid = (left + right) // 2
-        if A[mid] == k:
-            res = mid
-            right = mid - 1
-        elif A[mid] < k:
-            left = mid + 1
-        else:
-            right = mid - 1
-    return res
-
+    pass
 if __name__ == "__main__":
     A = [-14, 2, 108, 108, 248, 285, 285, 285, 401]
     print(search_first_of_k(A, 108))
