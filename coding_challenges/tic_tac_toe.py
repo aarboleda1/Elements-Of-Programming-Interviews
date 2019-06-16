@@ -90,7 +90,7 @@ def game():
             print("Invalid move.")
 
     winner = game_winner(board, size)
-    if winner is n  ot None:
+    if winner is not None:
         print('Game ended! Player %s won!' % winner)
     else:
         print('There was a tie. No one won :)')
