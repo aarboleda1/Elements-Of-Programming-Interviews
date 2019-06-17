@@ -7,6 +7,30 @@ from test_framework.test_failure import PropertyName
 DuplicateAndMissing = collections.namedtuple('DuplicateAndMissing',
                                              ('duplicate', 'missing'))
 
+"""11.10 Find the duplicate and missing elements
+
+If an array contains n - 1 integers, each between 0 and n - 1, inclusive, and
+all number in the array are distinct, then it must be the case that exactly one
+number between 0 and n - 1 is absent.
+
+Basic Algorithm:
+For each element, perform a circular swap and place the element n at the correct
+index.
+A = [0, 2, 2, 1]
+[0, 1, 2, 2]
+"""
+def swap(i, j, A):
+    A[j], A[i] = A[i], A[j]
+
+def find_duplicate_missing(A):
+    last_mismatch = 0
+    for i in range(len(A)):
+        while i != A[i] and A[A[i]] != A[i]:
+            swap(i, A[i], A)
+
+    for i in range(len(A)):
+        if i != A[i]:
+            return DuplicateAndMissing(A[i], i)
 
 def find_duplicate_missing(A):
 

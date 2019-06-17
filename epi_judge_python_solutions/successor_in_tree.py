@@ -4,7 +4,28 @@ from test_framework import generic_test
 from test_framework.binary_tree_utils import must_find_node
 from test_framework.test_utils import enable_executor_hook
 
+"""9.10 Compute the successor
+Compute the succesor in a tree using in order traversal, assume the node
+stores its parent
 
+Brute Force: A inorder walk, stopping immediately at the first node to be visited
+after the given node.
+
+A closer look, for an in order traversal there are 2 options for a given node
+1. A node does have right subtree.
+    - For this case, the next node is the left most node of the right subtree
+2. A node has no right subtree, therefore it will be one of the parents pointers
+    - If the node is it's parents left child, the parent will be the next node
+    we visit: Example, node is 2 in tree below, next node is 3
+    - If the node is it's parents right child, then we have already visited
+    the parent, traverse up, we stop the traversal when we come from a
+    left subtree
+     6
+   3
+ 2   1
+
+
+"""
 def find_successor(node):
 
     if node.right:

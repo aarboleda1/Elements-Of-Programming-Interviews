@@ -7,11 +7,11 @@ from test_framework.test_utils import enable_executor_hook
 
 """9.10 Compute the successor
 Compute the succesor in a tree using in order traversal, assume the node
-has a parent pointer
+stores its parent
 [ ATTEMPTED ] 6/2
 [ ATTEMPTED ] 5/31
+[ ATTEMPTED ] 6/17
 """
-
 
 def find_successor(node):
     pass

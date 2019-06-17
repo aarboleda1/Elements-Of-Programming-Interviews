@@ -10,6 +10,7 @@
 | 11.8 Find the kth largest element| (ATTEMPTED, 6/10) | kth_largest_in_array.py |
 | 11.9 Find the missing IP address | (ATTEMPTED, 6/10) | absent_value_array.py |
 | 11.10 Find the duplicate and missing elements | () | search_for_missing_element.py |
+|https://leetcode.com/problems/first-missing-positive||
 | **Bootcamp 6: Sorting** | 6/3 | ------- |
 | 13.1 Compute the intersection of two sorted arrays | (SOLVED, 6/3) | intersect_sorted_arrays.py |
 | 13.2 Merge two sorted arrays | (SOLVED, 6/3) | two_sorted_arrays_merge.py |

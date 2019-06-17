@@ -52,22 +52,10 @@ i  A
 2 [0, 1, 2, 1]
 3 [0, 1, 2, 1]
 
-
-
-
 """
-def swap(i, j, A):
-    A[j], A[i] = A[i], A[j]
-
 def find_duplicate_missing(A):
-    last_mismatch = 0
-    for i in range(len(A)):
-        while i != A[i] and A[A[i]] != A[i]:
-            swap(i, A[i], A)
-    for i in range(len(A)):
-        if i != A[i]:
-            return DuplicateAndMissing(A[i], i)
-    # return DuplicateAndMissing(A[last_mismatch], last_mismatch)
+    pass
+
 
 def res_printer(prop, value):
     def fmt(x):
@@ -86,9 +74,9 @@ if __name__ == '__main__':
     print(find_duplicate_missing(A), "dup: 1, missing: 2")
     A = [12, 14, 41, 74, 79, 22, 16, 11, 24, 76, 101, 27, 60, 31, 0, 13, 53, 90, 89, 1, 4, 85, 9, 77, 43, 93, 51, 86, 35, 5, 67, 71, 21, 46, 56, 95, 66, 19, 20, 44, 73, 91, 61, 69, 83, 34, 17, 29, 58, 78, 36, 49, 99, 38, 96, 40, 92, 37, 33, 15, 47, 5, 23, 3, 26, 64, 52, 81, 82, 8, 28, 25, 32, 65, 68, 70, 72, 94, 63, 7, 55, 10, 45, 100, 84, 2, 54, 98, 50, 39, 6, 88, 48, 97, 57, 59, 87, 62, 75, 30, 18, 42]
     print(find_duplicate_missing(A), "duplicate: 5, missing: 80")
-    # exit(
-    #     generic_test.generic_test_main(
-    #         "search_for_missing_element.py",
-    #         'find_missing_and_duplicate.tsv',
-    #         find_duplicate_missing,
-    #         res_printer=res_printer))
+    exit(
+        generic_test.generic_test_main(
+            "search_for_missing_element.py",
+            'find_missing_and_duplicate.tsv',
+            find_duplicate_missing,
+            res_printer=res_printer))
