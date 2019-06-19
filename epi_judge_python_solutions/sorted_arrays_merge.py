@@ -25,7 +25,22 @@ def merge_sorted_arrays(sorted_arrays):
             heapq.heappush(min_heap, (next_element, smallest_array_i))
     return result
 
-
+# TC: O(N), SC: O(N)
+def merge_sorted_arrays(sorted_arrays):
+    res, heap = [], []
+    for i, arr in enumerate(sorted_arrays):
+        heappush(heap, (arr[0], 0, i))
+    while heap:
+        (val, idx, idx_in_sorted_arrays) = heappop(heap)
+        res.append(val)
+        if idx < len(sorted_arrays[idx_in_sorted_arrays]) - 1:
+            heappush(
+                heap,
+                (sorted_arrays[idx_in_sorted_arrays][idx + 1],
+                idx + 1,
+                idx_in_sorted_arrays)
+            )
+    return res
 # Pythonic solution, uses the heapq.merge() method which takes multiple inputs.
 def merge_sorted_arrays_pythonic(sorted_arrays):
     return list(heapq.merge(*sorted_arrays))
