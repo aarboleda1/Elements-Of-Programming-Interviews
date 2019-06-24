@@ -19,14 +19,36 @@ you can place it in the correct location?
 
 NOTE create your own test case, the test cases here aren't correct
 (ATTEMPTED, 6/18)
+
+
+[3,-1,2,6,4,5,8], k = 2, heap = []
+[-1, 2,3,6,4,5,8]
+write_idx, j, heap
+0          2   [-1, 2, 3]
+1          3   [6, 2, 3]
+2          4   [6, 3, 4]
+
 """
 def sort_approximately_sorted_array(A, k):
-    pass
+    heap = []
+    for i in range(k):
+        heapq.heappush(heap, A[i])
+
+    write_idx = 0
+    for j in range(k, len(A)):
+        heapq.heappush(heap, A[j])
+        val = heapq.heappop(heap)
+        A[write_idx] = val
+        write_idx += 1
+
+    while heap:
+        val = heapq.heappop(heap)
+        A[write_idx] = val
+    print(A)
+    return A
 
 
-# def sort_approximately_sorted_array(sequence, k):
-    # TODO - you fill in here.
-    # return []
+
 
 
 def sort_approximately_sorted_array_wrapper(sequence, k):

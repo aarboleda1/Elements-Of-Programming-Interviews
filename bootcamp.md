@@ -2,7 +2,7 @@
 | ------ | ------ | ------ |
 | **Bootcamp 10: Heap** | 6/11 | ------- |
 | 10.1 Merge sorted files | (SOLVED, 6/18) |
-| 10.3 Sort and almost-sorted array | (ATTEMPTED, 6/18) |
+| 10.3 Sort and almost-sorted array | (SOLVED, 6/18) |
 | 10.4 Compute k closest stars | () |
 | 10.5 Compute median of online data | () |
 | 10.6 Compute the k largest elements in a max-heap | () | DO THIS LEETCODE PROBLEM: https://bit.ly/2x4vs76
