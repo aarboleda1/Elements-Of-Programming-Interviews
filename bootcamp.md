@@ -1,5 +1,14 @@
 | Problem |  Attempt Log | Python  |
+| **Bootcamp 16: Dynammic Programming** | 6/30 | ------- |
+| 16.2 Compute the Levenshteign Distance | () |  |
 | ------ | ------ | ------ |
+| **Bootcamp 8: Stacks and Queues** | 6/11 | ------- |
+| 8.1 Implement a stack with Max API |  | ------ |
+| 8.2 Evaluate RPN Expressions | ------ | ------ |
+| 8.3 Testing a string over for well-formedness | ------ | ------ |
+| 8.6 Compute binary tree nodes in order of increasing depth| ------ | ------ |
+| 8.7 Implement a circular queue | ------ | ------ |
+| 8.8 Implement a Queue using stacks | ------ | ------ |
 | **Bootcamp 10: Heap** | 6/11 | ------- |
 | 10.1 Merge sorted files | (SOLVED, 6/18) |
 | 10.3 Sort and almost-sorted array | (SOLVED, 6/18) |
