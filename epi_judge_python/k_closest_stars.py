@@ -1,7 +1,7 @@
 import functools
 import heapq
 import math
-
+import random
 from test_framework import generic_test
 from test_framework.test_utils import enable_executor_hook
 
@@ -48,13 +48,37 @@ class Star:
 
 0,2
 """
+# use 1st item as pivot
+def partition(stars, start, end, partition_idx): # int (index)
+    # swap
+    A[partition_idx], A[end] = A[end], A[partition_idx]
+    star = stars[partition_index]
+    distance = star.distance
+    j = start
+    for i in range(start, end):
+        if stars[i].distance < distance:
+            j += 1
+        else:
+            A[i], A[j] = A[j], A[i]
+    A[i], A[j] = A[j], A[i]
+    return j
+
 def find_closest_k_stars(stars, k):
-    max_heap = []
-    for star in stars:
-        heapq.heappush(max_heap, (-star.distance, star))
-        if len(max_heap) > k:
-            heapq.heappop(max_heap)
-    return [s[1] for s in max_heap]
+    start, end, n = 0, len(stars) - 1, len(stars)
+    while start < end:
+        random_idx = random.randint(start, end)
+        index_from_partition = partition(stars, start, end, random_idx)
+
+        if index_from_partition == n - k:
+            return stars[index_from_partition]
+        elif index_from_partition > n - k:
+            end = index_from_partition - 1
+        else:
+            start = index_from_partition + 1
+    return -1
+
+
+
 
 
 def comp(expected_output, output):

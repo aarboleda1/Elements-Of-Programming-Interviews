@@ -5,7 +5,11 @@ import math
 from test_framework import generic_test
 from test_framework.test_utils import enable_executor_hook
 
+"""
+Back to Back SWE: https://www.youtube.com/watch?v=hGK_5n81drs&t=616s
 
+Also see quick_select.py
+"""
 class Star:
     def __init__(self, x, y, z):
         self.x, self.y, self.z = x, y, z
